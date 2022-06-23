@@ -91,8 +91,11 @@
     <string name="noSamples">No hay muestras registradas</string>
 
     <!-- strings analyze construction parameters -->
-    <string name="tittleForm">Encuesta Sobre Caracterización Del Perfil Sociocultural De Las Comunidades Negras De La Zona Rural Del Litoral Pacífico 2022 – VR- 00_/08_06_2022</string>
+    <string name="tittleForm">Encuesta Sobre Caracterización Sociocultural De La Zona Rural</string>
     <string name="comunity">Comunidad</string>
-
+    <string name="comunidades">San José</string>
+    <string name="numberForms">No. Encuesta</string>
+    <string name="numbers">12</string>
+    <string name="dateForm">Fecha</string>
 
 </resources>

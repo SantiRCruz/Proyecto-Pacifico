@@ -35,10 +35,11 @@
 
 
             <LinearLayout
-                android:id="@+id/idAbastecimientoLinear"
+                android:id="@+id/idInicialForm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_marginTop="6dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/title">
@@ -56,13 +57,13 @@
                         android:textStyle="bold" />
 
                     <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/txtILSurfaceSources"
+                        android:id="@+id/txtILComunity"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha=".6"
                         android:background="@color/purple_500"
-                        android:hint="@string/superficiales"
+                        android:hint="@string/comunidades"
                         android:textColorHint="@color/blueDarkSena"
                         app:boxBackgroundMode="outline"
                         app:endIconMode="clear_text"
@@ -72,7 +73,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/txtSurfaceSources"
+                            android:id="@+id/txtComunity"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:inputType="text" />
@@ -82,7 +83,50 @@
                 </LinearLayout>
 
                 <View
-                    android:layout_width="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/numberForms"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/txtILtxtNumberForm"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha=".6"
+                        android:background="@color/purple_500"
+                        android:hint="@string/numbers"
+                        android:textColorHint="@color/blueDarkSena"
+                        app:boxBackgroundMode="outline"
+                        app:endIconMode="clear_text"
+                        app:hintTextColor="@color/blueDarkSena"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txtNumberForm"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="text" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="20dp"
                     android:layout_height="0dp" />
 
                 <LinearLayout
@@ -97,19 +141,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/underground_sources"
+                        android:text="@string/dateForm"
                         android:textStyle="bold" />
 
                     <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/txtILUnderGroundSources"
+                        android:id="@+id/txtILDateForm"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha=".6"
                         android:background="@color/purple_500"
-                        android:hint="@string/subterraneas"
                         android:textColorHint="@color/blueDarkSena"
                         app:boxBackgroundMode="outline"
+
                         app:endIconMode="clear_text"
                         app:hintTextColor="@color/blueDarkSena"
                         app:layout_constraintEnd_toEndOf="parent"
