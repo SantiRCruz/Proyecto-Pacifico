@@ -90,5 +90,9 @@
     <string name="noAnalysis">No se puede comenzar a tomar muestras sin guardar previamente un analisis</string>
     <string name="noSamples">No hay muestras registradas</string>
 
+    <!-- strings analyze construction parameters -->
+    <string name="tittleForm">Encuesta Sobre Caracterización Del Perfil Sociocultural De Las Comunidades Negras De La Zona Rural Del Litoral Pacífico 2022 – VR- 00_/08_06_2022</string>
+    <string name="comunity">Comunidad</string>
+
 
 </resources>
