@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">ConstruyendoPacifico</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buttoncamera">buttonCamera</string>
+    <string name="coordenadas_geogr_ficas">Coordenadas Geográficas :</string>
+    <string name="longitud">Longitud</string>
+    <string name="altitud">Altitud</string>
+    <string name="latitud">Latitud</string>
+    <string name="regresar">Regresar</string>
+    <string name="ubicaci_n">Ubicación</string>
+    <string name="department">Departamento</string>
+    <string name="municipio">Municipio</string>
+    <string name="populated_center">Centros Poblados</string>
+    <string name="vereda">Centros Poblados</string>
+    <string name="demograf_a">Demografía</string>
+    <string name="seleccionar_municipio">Seleccionar Municipio</string>
+    <string name="seleccionar_vereda">Seleccionar Vereda</string>
+    <string name="superficiales">Superficiales</string>
+    <string name="tipo_poblaci_n">Tipo Población</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="grupo_etnico">Grupo Etnico</string>
+    <string name="construyendo_pac_fico">Construyendo Pacífico</string>
+    <string name="n_mero_de_habitantes">Número de habitantes</string>
+    <string name="surface_sources">Fuentes Superficiales</string>
+    <string name="underground_sources">Fuentes Subterraneas</string>
+    <string name="abastecimiento_dle_lugar">Abastecimiento del lugar</string>
+    <string name="subterraneas">Subterraneas</string>
+    <string name="tipo_de_captaci_n">Tipo de Captación</string>
+    <string name="guardar">Guardar</string>
+    <string name="habitantes">Habitantes</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="bienvenido_de_nuevo">Bienvenido de nuevo</string>
+    <string name="sr">Sr.</string>
+    <string name="fotousuario">FotoUsuario</string>
+    <string name="exittoapp">ExitToApp</string>
+    <string name="lorem">Lorem</string>
+    <string name="registrar">Registrar Zona</string>
+    <string name="deletezone">DeleteZone</string>
+    <string name="editzone">EditZone</string>
+    <string name="nextactionzone">NextActionZone</string>
+
+
+    <string name="center">Centro de Teleinformatica y Produccion Industrial </string>
+    <string name="titulo_1">Creando para Crecer</string>
+    <string name="titulo_2">Con tu ayuda hacemos un gran cambio</string>
+    <string name="factory">Fabrica de Software</string>
+
+
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="boton_1">INICIAR SESION</string>
+    <string name="sena_1">SENA comunica </string>
+    <string name="sena_2">www.sena.edu.co</string>
+
+
+    <string name="boton_2">Regresar</string>
+    <string name="energ_a_alternativa">Energía Alternativa</string>
+    <string name="saneamiento">Saneamiento</string>
+    <string name="fuente_de_agua_y_potabilidad">Fuente de Agua y Potabilidad</string>
+    <string name="arquitectura_de_construcci_n_del_pac_fico">Arquitectura de Construcción del Pacífico</string>
+    <string name="abastecimiento_del_lugar">Abastecimiento del Lugar</string>
+    <string name="tipo_de_decantaci_n">Tipo de Decantación</string>
+
+    <!-- strings analyze water parameters -->
+
+    <string name="analyzeParameters">Parametros a Analizar</string>
+    <string name="addSample">Agregar Muestra</string>
+    <string name="typeSample">Tipo de muestra :</string>
+    <string name="naturalWater">Agua Natural</string>
+    <string name="treatedWater">Agua Tratada</string>
+    <string name="residualWater">Agua Residual</string>
+    <string name="other">Otro</string>
+    <string name="sample1"># 1</string>
+    <string name="sample2"># 2</string>
+    <string name="sample3"># 3</string>
+    <string name="sample4"># 4</string>
+    <string name="sample5"># 5</string>
+    <string name="average">Promedio</string>
+    <string name="limit">Limite</string>
+    <string name="feature">Caracteristica</string>
+    <string name="samples">Muestras</string>
+    <string name="selectSample">Selecciona un parametro para añadir muestra : </string>
+
+    <!-- strings analyze water parameters -->
+
+
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="saveAnalysis">Guardar Analisis</string>
+    <string name="noAnalysis">No se puede comenzar a tomar muestras sin guardar previamente un analisis</string>
+    <string name="noSamples">No hay muestras registradas</string>
+
+
+</resources>

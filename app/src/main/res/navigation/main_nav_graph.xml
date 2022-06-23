@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/zonesMenu">
+    <fragment
+        android:id="@+id/zonesFormCreate"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menu.ZonesFormCreate"
+        android:label="fragment_zones_form_create"
+        tools:layout="@layout/fragment_zones_form_create" >
+        <action
+            android:id="@+id/action_zonesFormCreate_to_zonesMenu"
+            app:destination="@id/zonesMenu"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_zonesFormCreate_to_menuModules22"
+            app:destination="@id/menuModules2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/zonesMenu"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menu.ZonesMenu"
+        android:label="ZonesMenu" >
+        <action
+            android:id="@+id/action_zonesMenu2_to_zonesFormCreate"
+            app:destination="@id/zonesFormCreate"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_zonesMenu_to_zonesFormUpdate"
+            app:destination="@id/zonesFormUpdate"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_zonesMenu_to_menuModules2"
+            app:destination="@id/menuModules2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_zonesMenu_self"
+            app:destination="@id/zonesMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/zonesFormUpdate"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menu.ZonesFormUpdate"
+        android:label="fragment_zones_form_update"
+        tools:layout="@layout/fragment_zones_form_update" >
+        <argument
+            android:name="population"
+            app:argType="com.fabricaswsenactpi.com.construyendopacifico.data.models.web.population.PopulationResponse" />
+        <action
+            android:id="@+id/action_zonesFormUpdate_to_zonesMenu"
+            app:destination="@id/zonesMenu"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuModules2"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.MenuModules"
+        android:label="MenuModules" >
+        <action
+            android:id="@+id/action_menuModules2_to_zonesMenu"
+            app:destination="@id/zonesMenu"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_menuModules2_to_analyzeWaterParameters"
+            app:destination="@id/analyzeWaterParameters"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="population"
+            app:argType="com.fabricaswsenactpi.com.construyendopacifico.data.models.web.population.PopulationResponse" />
+    </fragment>
+    <fragment
+        android:id="@+id/analyzeWaterParameters"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.waterUser.AnalyzeWaterParameters"
+        android:label="fragment_analyze_water_parameters"
+        tools:layout="@layout/fragment_analyze_water_parameters" >
+        <argument
+            android:name="population"
+            app:argType="com.fabricaswsenactpi.com.construyendopacifico.data.models.web.population.PopulationResponse" />
+        <action
+            android:id="@+id/action_analyzeWaterParameters_to_zonesMenu"
+            app:destination="@id/zonesMenu"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_analyzeWaterParameters_self"
+            app:destination="@id/analyzeWaterParameters" />
+    </fragment>
+</navigation>

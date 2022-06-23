@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="center">20sp</dimen>
+    <dimen name="factory">25sp</dimen>
+    <dimen name="titulo_1">35sp</dimen>
+    <dimen name="titulo_2">30sp</dimen>
+    <dimen name="sena_1">30sp</dimen>
+    <dimen name="sena_2">30sp</dimen>
+</resources>
