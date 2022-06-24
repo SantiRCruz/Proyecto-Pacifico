@@ -128,5 +128,17 @@
     <string name="codornices">Codornices</string>
     <string name="peces">Peces</string>
     <string name="otros_cual">Otros ¿Cual?</string>
+    <string name="pregunta26">26. Los espacios para dormir son divididos con:</string>
+    <string name="madera">Madera</string>
+    <string name="concreto">Concreto</string>
+    <string name="cortinas">Cortinas</string>
+    <string name="laminas">Laminas</string>
+    <string name="otro_tipo_de_division">Otro tipo de division</string>
+    <string name="pregunta27">27. Cuantas personas duermen por habitación:</string>
+    <string name="pregunta29">29. Que tipo de discapacidad</string>
+    <string name="pregunta28">28. ¿Hay personas con discapacidad en la vivienda?</string>
+    <string name="pregunta30">30. La vivienda ha sido condicionada para esas personas con discapacidad.</string>
+    <string name="interior31">Al interior de la vivienda</string>
+    <string name="exterior31">Al exterior de la vivienda</string>
 
 </resources>
