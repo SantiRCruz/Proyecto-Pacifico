@@ -3,8 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ANDROID/proyecto_pacifico/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction.xml" value="0.16666666666666666" />
+        <entry key="..\:/ANDROID/proyecto_pacifico/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction2.xml" value="0.22" />
+        <entry key="..\:/ANDROID/proyecto_pacifico/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction3.xml" value="0.13043478260869565" />
+        <entry key="..\:/ANDROID/proyecto_pacifico/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_create.xml" value="0.1" />
+        <entry key="..\:/ANDROID/proyecto_pacifico/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_update.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/confirm_delete_zone.xml" value="0.18541666666666667" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction.xml" value="0.18802083333333333" />
+        <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction3.xml" value="0.33" />
+        <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction4.xml" value="0.25" />
+        <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_create.xml" value="0.36666666666666664" />
+        <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_update.xml" value="0.36666666666666664" />
+=======
+>>>>>>> d89cb1bb0d37892480ec0cd2096a8c2e7850eaac
+>>>>>>> a6ca93bb09b9bff197b2e57c705435bbbce73280
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.24322916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/drawable/ic_camera.xml" value="0.24322916666666666" />
@@ -55,9 +71,12 @@
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/fragment_zones_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/item_menu_zones.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
+<<<<<<< HEAD
         <entry key="..\:/valeyluna/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction.xml" value="0.2843866171003718" />
         <entry key="..\:/valeyluna/Proyecto-Pacifico/app/src/main/res/layout/fragment_water_module_form.xml" value="0.22916666666666666" />
         <entry key="..\:/valeyluna/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_create.xml" value="0.33" />
+=======
+>>>>>>> a6ca93bb09b9bff197b2e57c705435bbbce73280
       </map>
     </option>
   </component>

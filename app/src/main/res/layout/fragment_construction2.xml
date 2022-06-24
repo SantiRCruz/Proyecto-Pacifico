@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.user.menuModules.constructionUser.ConstructionFragment2"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cfragmentc2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/lnquestion11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtquestion11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p11"
+                android:textColor="@color/blueDarkSena"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/rgp11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/rbHousea11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/casa"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbRoomb11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/habitacion"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rbApartamentc11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apartamento"
+                        android:layout_marginLeft="4dp"
+                        />
+                    <RadioButton
+                        android:id="@+id/rbOtherd11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/other"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                </RadioGroup>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtOthertypehousingp11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/which"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="25dp"
+                    android:visibility="gone"
+                    android:inputType="text" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnquestion12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:orientation="vertical"
+            android:layout_marginTop="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lnquestion11">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/orangeSena"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="130dp" />
+
+
+            <TextView
+                android:id="@+id/txtquestion12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p12"
+                android:textColor="@color/blueDarkSena"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autocompleteSelectTenenciavivienda"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:alpha=".6"
+                    android:completionHint="Seleccione tipo de tenencia de la vivienda"
+                    android:completionThreshold="1"
+                    android:hint="@string/seleccionar"
+                    android:maxLines="2"
+                    android:textColor="@color/blueDarkSena"
+                    android:textColorHint="@color/blueDarkSena"
+                    app:hintTextColor="@color/blueDarkSena" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnquestion13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:orientation="vertical"
+            android:layout_marginTop="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lnquestion12">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/orangeSena"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="130dp" />
+
+            <TextView
+                android:id="@+id/txtquestion13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p13"
+                android:textColor="@color/blueDarkSena"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgp13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/rbYesa13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+                    android:layout_marginLeft="4dp"
+                    />
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
