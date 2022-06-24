@@ -298,10 +298,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:alpha=".6"
-                            android:maxLines="2"
                             android:completionHint="Seleccione un Departamento"
                             android:completionThreshold="1"
                             android:hint="@string/seleccionar"
+                            android:maxLines="2"
                             android:textColor="@color/blueDarkSena"
                             android:textColorHint="@color/blueDarkSena"
                             app:hintTextColor="@color/blueDarkSena" />

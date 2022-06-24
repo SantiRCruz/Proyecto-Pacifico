@@ -97,5 +97,36 @@
     <string name="numberForms">No. Encuesta</string>
     <string name="numbers">12</string>
     <string name="dateForm">Fecha</string>
+    <string name="pregunta21">21. Indique las dimenciones del lote o terreno (incluida la vivienda y parte productiva), si las conoce:</string>
+    <string name="ancho">Ancho</string>
+    <string name="largo">Largo</string>
+    <string name="area">Área</string>
+    <string name="pregunta22">22. La propiedad o lote cuenta con terreno para cultivar o cría de animales:</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="pregunta23">23. Indique si la vivienda cuenta con los siguientes espacios:</string>
+    <string name="a23">Habitaciones para dormir</string>
+    <string name="b23">Sala</string>
+    <string name="c23">Comedor</string>
+    <string name="d23">Sala-Comedor</string>
+    <string name="e23">Cocina</string>
+    <string name="f23">Baños</string>
+    <string name="g23">Almacen para herramientas</string>
+    <string name="h23">Almacen de agroinsumos y fertilizantes</string>
+    <string name="i23">Patio</string>
+    <string name="j23">Azotea (huerta trasera)</string>
+    <string name="k23">Anden (Espacio privado frente a la calle)</string>
+    <string name="l23">Soberado (Espacio entre la cubierta y el cielorraso)</string>
+    <string name="pregunta24">24. El patio el usado para:</string>
+    <string name="p23">Estos almacenes estan cerrados bajo llave</string>
+    <string name="pregunta25">25. Qué tipo de plantas cultiva</string>
+    <string name="preunta125">25. ¿Qué animales crían?</string>
+    <string name="gallinas">Gallinas</string>
+    <string name="conejos">Conejos</string>
+    <string name="patos">Patos</string>
+    <string name="pavos">Pavos</string>
+    <string name="codornices">Codornices</string>
+    <string name="peces">Peces</string>
+    <string name="otros_cual">Otros ¿Cual?</string>
 
 </resources>
