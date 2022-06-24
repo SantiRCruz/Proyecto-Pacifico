@@ -140,5 +140,17 @@
     <string name="pregunta30">30. La vivienda ha sido condicionada para esas personas con discapacidad.</string>
     <string name="interior31">Al interior de la vivienda</string>
     <string name="exterior31">Al exterior de la vivienda</string>
+    <string name="p11">11.Tipo de vivienda</string>
+    <string name="casa">Casa</string>
+    <string name="habitacion">Habitación</string>
+    <string name="apartamento">Apartamento</string>
+    <string name="which">¿Cuál?</string>
+    <string name="p12">12. Tipo de tenencia de la vivienda:</string>
+    <string name="own">Propia</string>
+    <string name="rental">Alquiler</string>
+    <string name="mortgage">Hipotecada</string>
+    <string name="cedida">Cedida</string>
+    <string name="condenada">Condenada</string>
+    <string name="p13">13. La vivienda se encuentra en espacios de alto riesgo:</string>
 
 </resources>
