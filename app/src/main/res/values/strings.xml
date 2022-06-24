@@ -93,9 +93,44 @@
     <!-- strings analyze construction parameters -->
     <string name="tittleForm">Encuesta Sobre Caracterización Sociocultural De La Zona Rural</string>
     <string name="comunity">Comunidad</string>
+    <string name="age">Edad</string>
+    <string name="ocupacy">Ocupacion</string>
+    <string name="sex">Genero</string>
     <string name="comunidades">San José</string>
     <string name="numberForms">No. Encuesta</string>
     <string name="numbers">12</string>
+    <string name="ocupacion">Ama de Casa</string>
     <string name="dateForm">Fecha</string>
+    <string name="female">F</string>
+    <string name="masculine">M</string>
+    <string name="nameForm">Nombre del encuestado</string>
+    <string name="namee">XXXXXX XXXXX XXXXXX</string>
+    <string name="question1">1.	Cuántas familias comparten la vivienda:</string>
+    <string name="question2">2.	Número de personas que habitan la vivienda:</string>
+    <string name="question3">3.	Número de Niños de 0 a 14 años en la vivienda:</string>
+    <string name="question4">4.	Número de jóvenes de 14 a 18 años en la vivienda:</string>
+    <string name="question5">5.	Numero de adultos mayores de 18 años en la vivienda:</string>
+    <string name="question6">6.	Los menores duermen en compañía de adultos:</string>
+    <string name="question7">7.	La vocación productiva de la familia es:</string>
+    <string name="question8">8.	Las fuentes de financiación para la adquisición / Construcción de la Vivienda provienen principalmente de:</string>
+    <string name="question9">9.	¿Cuál es el nivel educativo más alto alcanzado en la familia?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="farmers">Agricultores</string>
+    <string name="fishermen">Pescadores</string>
+    <string name="merchants">Comerciantes</string>
+    <string name="miners">Mineros</string>
+    <string name="forestryActivities">Actividades forestales</string>
+    <string name="builders">Constructores</string>
+    <string name="employees">Empleados</string>
+    <string name="Inheritance">Herencia</string>
+    <string name="ownFunds">Fondos Propios</string>
+    <string name="subsidies">Subsidios</string>
+    <string name="BankLoan">Prestamo Bancario</string>
+    <string name="PrivateLoan">Prestamo Particular</string>
+    <string name="PopularAssociations">Asociaciones Populares de Vivienda</string>
+    <string name="CouncilManagement">Gestión de consejo comunitario</string>
+    <string name="cooperatives">Cooperativas</string>
+    <string name="minga">Minga</string>
 
 </resources>
