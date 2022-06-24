@@ -6,7 +6,7 @@
         <entry key="..\:/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/confirm_delete_zone.xml" value="0.18541666666666667" />
         <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction.xml" value="0.18802083333333333" />
-        <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction3.xml" value="0.2" />
+        <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction3.xml" value="0.22" />
         <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction4.xml" value="0.25" />
         <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_create.xml" value="0.36666666666666664" />
         <entry key="..\:/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_update.xml" value="0.36666666666666664" />
@@ -60,12 +60,6 @@
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/fragment_zones_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/item_menu_zones.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
-<<<<<<< HEAD
-        <entry key="..\:/valeyluna/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction.xml" value="0.33" />
-        <entry key="..\:/valeyluna/Proyecto-Pacifico/app/src/main/res/layout/fragment_water_module_form.xml" value="0.22916666666666666" />
-        <entry key="..\:/valeyluna/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_create.xml" value="0.33" />
-=======
->>>>>>> f8fe172919a5dfc7369b29e4473197e800d0e8e3
       </map>
     </option>
   </component>
