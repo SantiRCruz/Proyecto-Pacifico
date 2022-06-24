@@ -140,7 +140,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -201,7 +201,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -564,6 +564,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
+                            android:layout_marginTop="5dp"
                             android:text="Pregunta  complemento  de  las  dos  anteriores"
                             android:textColor="@color/blueDarkSena"
                             android:textSize="18dp"
@@ -781,7 +782,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -842,7 +843,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -959,7 +960,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -1003,7 +1004,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="1dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -1085,7 +1086,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -1172,7 +1173,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -1233,7 +1234,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
@@ -1361,7 +1362,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="3dp"
+                    android:layout_height="2dp"
                     android:background="@color/orangeSena"
                     tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="0dp"
