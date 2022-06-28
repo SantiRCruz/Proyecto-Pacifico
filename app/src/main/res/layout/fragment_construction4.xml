@@ -1052,7 +1052,7 @@
                                     android:id="@+id/rpuersip38"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:text="@string/si" />
+                                    android:text="@string/yes" />
 
                                 <RadioButton
                                     android:id="@+id/rpuernop38"
@@ -1092,7 +1092,7 @@
                                     android:id="@+id/rventsip38"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:text="@string/si" />
+                                    android:text="@string/yes" />
 
                                 <RadioButton
                                     android:id="@+id/rventnop38"
