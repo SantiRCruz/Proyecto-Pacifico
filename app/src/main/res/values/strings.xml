@@ -187,7 +187,7 @@
     <string name="exterior31">Al exterior de la vivienda</string>
     <string name="pregunta40">40. El techo de la vivienda es de:</string>
     <string name="concreto_plancha">Concreto, Loza o Plancha</string>
-    <string name="zinc">Zinc</string>
+    <string name="zincc">Zinc</string>
     <string name="eternit">Eternit</string>
     <string name="pvc">Pvc</string>
     <string name="aluminio">Aluminio</string>
@@ -199,7 +199,7 @@
     <string name="barro">Barro</string>
     <string name="guadua">Guadua</string>
     <string name="ladrillococido">Ladrillo Cocido</string>
-    <string name="bareque">Bareque</string>
+    <string name="barequee">Bareque</string>
     <string name="adobe">Adobe</string>
     <string name="calados">Calados</string>
     <string name="Bloque_cemento">Bloque de cemento</string>
