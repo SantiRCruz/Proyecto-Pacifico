@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.user.menuModules.constructionUser.ConstructionFragment5">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/orangeSena"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-16dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta41"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout16"
+            android:layout_width="409dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@+id/checkBox"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barro"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/madera"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guadua"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </CheckBox>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calados"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </CheckBox>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:text="@string/Bloque_cemento"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/concreto"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="187dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:text="@string/adobe"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/bareque"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="293dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="222dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="112dp"
+            android:text="@string/ladrillococido"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="113dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="222dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="216dp"
+            android:text="@string/otros_cual"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+        </CheckBox>
+
+        <View
+            android:id="@+id/vie3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/orangeSena"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="@string/pregunta42"
+            android:textColor="@color/blueDarkSena"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vie3" />
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/linearLayout17"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            tools:layout_editor_absoluteX="0dp">-->
+
+
+        <CheckBox
+            android:layout_width="115dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/baldosa"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="125dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/estuco"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="120dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/perlita"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="245dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="84dp"
+            android:text="@string/graniplast"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="174dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="84dp"
+            android:text="@string/fachaleta"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="131dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="140dp"
+            android:text="@string/madera"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="140dp"
+            android:text="@string/fibras"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="120dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="140dp"
+            android:text="@string/no_tiene"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="241dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="196dp"
+            android:text="@string/otros_cual"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-1dp">
+
+        </CheckBox>
+
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="56dp"
+            android:background="@color/orangeSena"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:textColor="@color/orangeSena"
+            android:text="@string/relacion_de_vivienda"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view4"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:text="@string/pregunta43"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view4"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-6dp">
+
+        </TextView>
+
+        <RadioButton
+            android:layout_width="222dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/alineada_sobre_via"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"></RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="222dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/alineada_rio"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"></RadioButton>
+
+        <RadioButton
+            android:layout_width="165dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/dispersa"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="217dp"></RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="178dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/continua"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="217dp"></RadioButton>
+
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="44dp"
+            android:background="@color/orangeSena"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="131dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/pregunta44"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view5"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"></TextView>
+        <!--        </LinearLayout>-->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:text="@string/centro_salud"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:text="@string/salon_comunal"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="168dp"></CheckBox>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:text="@string/institucion"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:text="@string/Acopio"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="195dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="@string/recreativo"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"></CheckBox>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="@string/deportivo"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="171dp"></CheckBox>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="188dp"
+            android:text="@string/Culto"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="188dp"
+            android:text="@string/transporte"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="157dp"></CheckBox>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="236dp"
+            android:text="@string/conectividad"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"></CheckBox>
+
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="288dp"
+            android:text="@string/turistica"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"></CheckBox>
+
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/orangeSena"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox4"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/pregunta46"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view6"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-3dp"></TextView>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/radio"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-2dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/tv_publica"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="87dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:text="@string/tv_satelital"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:text="@string/internet"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="187dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:text="@string/celular"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-7dp"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:text="@string/fijo"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="174dp"></CheckBox>
+
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/orangeSena"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox5"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-6dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/titulo46"
+            android:textColor="@color/orangeSena"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view7"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:text="@string/pregunta47"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view7"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-4dp"></TextView>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mal_olor"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1756dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/basura"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="1756dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mosquitos"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="1804dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aguas"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="1852dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hidrico"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1900dp"></CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vertiminetos"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="1852dp"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otros_cual"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="1948dp"></CheckBox>
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/orangeSena"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox6"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta48"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="2044dp">
+
+        </TextView>
+
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/alcantarillado"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"></RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="@string/Septico"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="246dp"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/alcantarillado"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="200dp"></RadioButton>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="@string/otros_cual"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-2dp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="@string/no_tiene"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="136dp"></RadioButton>
+
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/orangeSena"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-7dp" />
+
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta49"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="2251dp"></TextView>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/iluminacion"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="2dp">
+
+        </CheckBox>
+
+
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/agua_potable"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="200dp">
+
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="@string/recoleccion"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="2dp">
+
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="@string/otros_cual"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="248dp">
+
+
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="@string/basuras"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:text="@string/residuos"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+
+        </CheckBox>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

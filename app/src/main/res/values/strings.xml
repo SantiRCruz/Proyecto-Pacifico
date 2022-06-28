@@ -140,5 +140,92 @@
     <string name="pregunta30">30. La vivienda ha sido condicionada para esas personas con discapacidad.</string>
     <string name="interior31">Al interior de la vivienda</string>
     <string name="exterior31">Al exterior de la vivienda</string>
+    <string name="pregunta40">40. El techo de la vivienda es de:</string>
+    <string name="concreto_plancha">Concreto, Loza o Plancha</string>
+    <string name="zinc">Zinc</string>
+    <string name="eternit">Eternit</string>
+    <string name="pvc">Pvc</string>
+    <string name="aluminio">Aluminio</string>
+    <string name="paja">Paja</string>
+    <string name="palma">Palma</string>
+    <string name="teja_carton">Teja de Cartón</string>
+    <string name="plastico">Plastico</string>
+    <string name="pregunta41">41. Qué tipo de material poseen las paredes exteriores de la vivienda:</string>
+    <string name="barro">Barro</string>
+    <string name="guadua">Guadua</string>
+    <string name="ladrillococido">Ladrillo Cocido</string>
+    <string name="bareque">Bareque</string>
+    <string name="adobe">Adobe</string>
+    <string name="calados">Calados</string>
+    <string name="Bloque_cemento">Bloque de cemento</string>
+    <string name="pregunta42">42. Qué tipo de acabado tienen las fachadas de la vivienda:</string>
+    <string name="baldosa">Baldosa</string>
+    <string name="estuco">Estuco</string>
+    <string name="perlita">Perlita</string>
+    <string name="graniplast">Graniplast</string>
+    <string name="fachaleta">Fachaleta (Ladrillo, Ceramica, Marmol)</string>
+    <string name="fibras">Fibras</string>
+    <string name="no_tiene">No tiene</string>
+    <string name="relacion_de_vivienda">RELACION DE LA VIVIENDA CON OTROS ESPACIOS</string>
+    <string name="pregunta43">43. La vivienda se organiza en:</string>
+    <string name="alineada_sobre_via">Alineada sobre una via</string>
+    <string name="alineada_rio">Alineada sobre un rio</string>
+    <string name="dispersa">Dispersa</string>
+    <string name="continua">Continua</string>
+    <string name="pregunta44">44. Tipos de Equipamentos existentes:</string>
+    <string name="centro_salud">Centro de Salud</string>
+    <string name="salon_comunal">Salon Comunal</string>
+    <string name="institucion">Institucion Educativa</string>
+    <string name="Acopio">Centro de Acopio</string>
+    <string name="recreativo">Centro Recreativo</string>
+    <string name="deportivo">Centro Deportivo</string>
+    <string name="Culto">Centro de Culto</string>
+    <string name="transporte">Medios de transporte</string>
+    <string name="conectividad">Conectividad Internet Publico</string>
+    <string name="turistica">Centro de iniformacion turistica</string>
+    <string name="escuela">Escuela</string>
+    <string name="pregunta45">45. Accesibilidad/ Vías terrestres:</string>
+    <string name="pevimentada">Pavimentada en concreto</string>
+    <string name="asfalta">Asfalta</string>
+    <string name="embalastrada">Embalaastrada</string>
+    <string name="herradura">Camino de herradura</string>
+    <string name="destapada">Carretera despatada o trocha</string>
+    <string name="placa_huella">Placa huella</string>
+    <string name="pregunta46">46. Comunicaciones</string>
+    <string name="radio">Radio</string>
+    <string name="tv_publica">Television publica</string>
+    <string name="tv_satelital">Television satelital</string>
+    <string name="internet">Internet</string>
+    <string name="celular">Telefonia Celular</string>
+    <string name="fijo">Telefonia fija</string>
+    <string name="titulo46">PROBLEMATICAS SANITARIAS CON RELACION AL HABITAT Y ASENTAMIENTO</string>
+    <string name="pregunta47">47. Sanitarios:</string>
+    <string name="mal_olor">Malos olores</string>
+    <string name="basura">Basura a su alredeor</string>
+    <string name="mosquitos">Abundancia de mosquitos</string>
+    <string name="aguas">Aguas estancadas</string>
+    <string name="hidrico">Contaminada de las fuentes hidricas</string>
+    <string name="vertiminetos">por vertimientos</string>
+    <string name="pregunta48">48. Tipos de sistema de saneamiento</string>
+    <string name="alcantarillado">Red de alcantarillado</string>
+    <string name="Septico">Pozo séptico</string>
+    <string name="pregunta49">49. Infraestructura de servicios</string>
+    <string name="iluminacion">Ilumincacion Publica</string>
+    <string name="agua_potable">Agua Potable</string>
+    <string name="recoleccion">Recoleccion de desechos</string>
+    <string name="basuras">Unidad de Tratamiento de Basuras</string>
+    <string name="residuos">Unidad de Aprovechamiento de Residuos UAR</string>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </resources>
