@@ -26,6 +26,9 @@ class MenuModules : Fragment(R.layout.fragment_menu_modules) {
         binding.btnBackToMenu.setOnClickListener {
             findNavController().navigate(R.id.action_menuModules2_to_zonesMenu)
         }
+        binding.txtArquitecture.setOnClickListener{
+            findNavController().navigate(R.id.constructionFragment)
+        }
     }
 
 }
