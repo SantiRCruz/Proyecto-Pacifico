@@ -185,5 +185,36 @@
     <string name="cedida">Cedida</string>
     <string name="condenada">Condenada</string>
     <string name="p13">13. La vivienda se encuentra en espacios de alto riesgo:</string>
+    <string name="p14">14. A qué tipo de riesgo está propensa la vivienda:</string>
+    <string name="farmer">Agricultor</string>
+    <string name="inundaciones">Inundaciones</string>
+    <string name="deslizamientos">Deslizamientos (tierra/roca)</string>
+    <string name="hundimientos">Hundimientos</string>
+    <string name="inseguridad">Inseguridad en orden público</string>
+    <string name="humedad">Humedad interior</string>
+    <string name="p15">15. La vivienda donde vive es:</string>
+    <string name="adquirida">Adquirida por herencia</string>
+    <string name="construida">Construida desde sus inicios</string>
+    <string name="comprada">Comprada en el estado en que se encuentra</string>
+    <string name="renovada">Comprada y renovada</string>
+    <string name="p16">16. Prioritariamente cuál miembro de la familia hace la gestión de:</string>
+    <string name="padre">Padre:</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="mother">Madre:</string>
+    <string name="child">Hijos:</string>
+    <string name="grandparents">Abuelos:</string>
+    <string name="p17">17. En su mayoría, el material predominante de la vivienda es:</string>
+    <string name="dimension_fisica">Dimensión fisica de la vivienda</string>
+    <string name="ladrillos">Ladrillos y Concreto</string>
+    <string name="zinc">Zinc</string>
+    <string name="bareque">Bareque o Bambú</string>
+    <string name="tapia_pisada">Tapia pisada</string>
+    <string name="p18">18. Si la respuesta es madera, diga si necesitan tiempos especiales para el corte del material:</string>
+    <string name="p19">19. Indique que tipo de madera se utilizó para su construcción:</string>
+    <string name="write_here">Escriba aqui</string>
+    <string name="dontknow">No sabe</string>
+    <string name="p20">20. Indique las dimensiones de la vivienda, si las conoce:</string>
 
 </resources>
