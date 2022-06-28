@@ -17,10 +17,15 @@ class ConstructionFragment : Fragment(R.layout.fragment_construction) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentConstructionBinding.bind(view)
 
+
+
         clicks()
 
     }
 
     private fun clicks() {
+        binding.btnNext.setOnClickListener{
+            findNavController().navigate(R.id.constructionFragment2)
+        }
     }
 }

@@ -370,6 +370,9 @@
     <string name="cedida">Cedida</string>
     <string name="condenada">Condenada</string>
     <string name="p13">13. La vivienda se encuentra en espacios de alto riesgo:</string>
+
+
+=======
     <string name="p14">14. A qué tipo de riesgo está propensa la vivienda:</string>
     <string name="farmer">Agricultor</string>
     <string name="inundaciones">Inundaciones</string>
@@ -402,5 +405,6 @@
     <string name="dontknow">No sabe</string>
     <string name="p20">20. Indique las dimensiones de la vivienda, si las conoce:</string>
     <string name="next">SIGUIENTE</string>
+
 
 </resources>
