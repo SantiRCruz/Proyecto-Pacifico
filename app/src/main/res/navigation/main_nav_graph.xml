@@ -125,5 +125,14 @@
         android:id="@+id/constructionFragment2"
         android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.constructionUser.ConstructionFragment2"
         android:label="fragment_construction2"
-        tools:layout="@layout/fragment_construction2" />
+        tools:layout="@layout/fragment_construction2" >
+        <action
+            android:id="@+id/action_constructionFragment2_to_constructionFragment3"
+            app:destination="@id/constructionFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/constructionFragment3"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.constructionUser.ConstructionFragment3"
+        android:label="fragment_construction3"
+        tools:layout="@layout/fragment_construction3" />
 </navigation>
