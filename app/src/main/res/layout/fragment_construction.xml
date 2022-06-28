@@ -5,13 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.user.menuModules.constructionUser.ConstructionFragment">
-
     <ScrollView
         android:id="@+id/screen"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent">
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,7 +18,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
-
             <TextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
@@ -33,7 +30,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
             <LinearLayout
                 android:id="@+id/idInicialForm"
                 android:layout_width="match_parent"
@@ -54,6 +50,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="@dimen/questions"
                         android:text="@string/comunity"
                         android:textStyle="bold" />
 
@@ -99,6 +96,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/numberForms"
+                        android:textSize="@dimen/questions"
                         android:textStyle="bold" />
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -143,6 +141,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/dateForm"
+                        android:textSize="@dimen/questions"
                         android:textStyle="bold" />
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -170,7 +169,6 @@
                     </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/linearLayout9"
                 android:layout_width="match_parent"
@@ -192,6 +190,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/nameForm"
+                        android:textSize="@dimen/questions"
                         android:textStyle="bold" />
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -219,7 +218,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/linearLayout11"
                 android:layout_width="match_parent"
@@ -240,6 +238,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/age"
+                        android:textSize="@dimen/questions"
                         android:textStyle="bold" />
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -282,6 +281,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/ocupacy"
+                        android:textSize="@dimen/questions"
                         android:textStyle="bold" />
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -323,6 +323,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/sex"
+                        android:textSize="@dimen/questions"
                         android:textStyle="bold" />
 
                     <RadioGroup
@@ -353,17 +354,15 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/view2"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
                 tools:ignore="MissingConstraints" />
-
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
@@ -375,7 +374,6 @@
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view2" />
-
             <LinearLayout
                 android:id="@+id/linearLayout3"
                 android:layout_width="match_parent"
@@ -397,6 +395,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="@dimen/questions"
                         android:text="@string/question1"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
@@ -413,6 +412,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold" />
 
@@ -420,6 +420,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="19dp"
+                            android:textSize="@dimen/questions"
                             android:text="2"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold" />
@@ -427,6 +428,7 @@
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textSize="@dimen/questions"
                             android:layout_marginLeft="19dp"
                             android:text="3"
                             android:textColor="@color/graySenaVariant"
@@ -436,6 +438,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="19dp"
+                            android:textSize="@dimen/questions"
                             android:text="4"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold" />
@@ -444,6 +447,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="19dp"
+                            android:textSize="@dimen/questions"
                             android:text="Más de 5"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold" />
@@ -456,18 +460,16 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/line2"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout4"
                 android:layout_width="match_parent"
@@ -490,6 +492,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question2"
+                        android:textSize="@dimen/questions"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -510,6 +513,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="1"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -517,6 +521,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="2"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -524,6 +529,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="3"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -531,6 +537,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="4"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -538,6 +545,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="5"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -545,6 +553,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="6"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -552,6 +561,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="más de 7"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
                         </RadioGroup>
@@ -590,18 +600,16 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/line3"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout5"
                 android:layout_width="match_parent"
@@ -624,6 +632,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question3"
+                        android:textSize="@dimen/questions"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -644,6 +653,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="1"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -651,6 +661,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="2"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -658,6 +669,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="3"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -665,6 +677,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="4"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -672,6 +685,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="5"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -679,6 +693,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="6"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -686,6 +701,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="más de 7"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
                         </RadioGroup>
@@ -699,18 +715,16 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/line4"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout7"
                 android:layout_width="match_parent"
@@ -733,6 +747,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question4"
+                        android:textSize="@dimen/questions"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -753,6 +768,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="1"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -760,6 +776,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="2"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -767,6 +784,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="3"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -774,6 +792,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="4"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -781,6 +800,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="5"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -788,6 +808,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="6"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -795,6 +816,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="más de 7"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
                         </RadioGroup>
@@ -808,18 +830,16 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/line6"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout8"
                 android:layout_width="match_parent"
@@ -842,6 +862,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question5"
+                        android:textSize="@dimen/questions"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -862,6 +883,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="1"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -869,6 +891,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="2"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -876,6 +899,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="3"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -883,6 +907,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="4"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -890,6 +915,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="5"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -897,6 +923,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="6"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -904,6 +931,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="más de 7"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
                         </RadioGroup>
@@ -917,18 +945,16 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/line7"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout10"
                 android:layout_width="match_parent"
@@ -951,6 +977,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question6"
+                        android:textSize="@dimen/questions"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -971,6 +998,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/yes"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -979,6 +1007,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="15dp"
                                 android:text="@string/no"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -987,6 +1016,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="15dp"
                                 android:text="En ocasiones"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -1002,18 +1032,16 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/line8"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout12"
                 android:layout_width="match_parent"
@@ -1038,6 +1066,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question7"
+                        android:textSize="@dimen/questions"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -1055,29 +1084,33 @@
 
                         <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="@string/farmers"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold"/>
 
                         <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="@string/fishermen"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold"/>
 
                         <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="@string/merchants"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold"/>
 
                         <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="@string/miners"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold"/>
 
@@ -1091,29 +1124,33 @@
 
                         <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="@string/forestryActivities"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold"/>
 
                         <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="@string/builders"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold"/>
 
                         <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="@string/employees"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold"/>
 
                         <CheckBox
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="@string/other"
+                            android:textSize="@dimen/questions"
                             android:textColor="@color/graySenaVariant"
                             android:textStyle="bold"/>
 
@@ -1152,18 +1189,16 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/line9"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout13"
                 android:layout_width="match_parent"
@@ -1188,6 +1223,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question8"
+                        android:textSize="@dimen/questions"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -1201,39 +1237,45 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
                             android:orientation="vertical">
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="40dp"
+                                android:layout_height="wrap_content"
                                 android:text="@string/Inheritance"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="40dp"
+                                android:layout_height="wrap_content"
                                 android:text="@string/ownFunds"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="30dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/questions"
                                 android:text="@string/subsidies"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="30dp"
+                                android:layout_height="wrap_content"
                                 android:text="@string/BankLoan"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="30dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/questions"
                                 android:text="@string/PrivateLoan"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
@@ -1243,41 +1285,46 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="20dp"
                             android:orientation="vertical">
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="40dp"
+                                android:layout_height="wrap_content"
                                 android:text="@string/PopularAssociations"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="40dp"
+                                android:layout_height="wrap_content"
                                 android:text="@string/CouncilManagement"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="30dp"
+                                android:layout_height="wrap_content"
                                 android:text="@string/cooperatives"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="30dp"
+                                android:layout_height="wrap_content"
                                 android:text="@string/minga"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
                             <CheckBox
                                 android:layout_width="wrap_content"
-                                android:layout_height="30dp"
+                                android:layout_height="wrap_content"
                                 android:text="@string/other"
+                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold"/>
 
@@ -1316,26 +1363,244 @@
 
 
             </LinearLayout>
-
             <View
                 android:id="@+id/line10"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:background="@color/orangeSena"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
                 tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line10">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question9"
+                        android:textSize="@dimen/questions"
+                        android:textColor="@color/blueDarkSena"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                        <RadioGroup
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/preschool"
+                                android:textSize="@dimen/questions"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/primaryBasic"
+                                android:textSize="@dimen/questions"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/highSchool"
+                                android:textSize="@dimen/questions"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/technicalSchool"
+                                android:textSize="@dimen/questions"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                        </RadioGroup>
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <RadioButton
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ProfessionalTechnician"
+                                android:textSize="@dimen/questions"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/questions"
+                                android:text="@string/Technologist"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Professional"
+                                android:textSize="@dimen/questions"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Specialization"
+                                android:textSize="@dimen/questions"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Postgraduate"
+                                android:textSize="@dimen/questions"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                        </RadioGroup>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
 
 
 
+            </LinearLayout>
+            <View
+                android:id="@+id/line11"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout14"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line11">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question10"
+                        android:textSize="@dimen/questions"
+                        android:textColor="@color/blueDarkSena"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+                        <LinearLayout
+                            android:layout_width="391dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="6dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/AgeNumber"
+                                android:textSize="@dimen/questions"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:alpha=".6"
+                                android:background="@color/purple_500"
+                                android:hint="@string/numbers"
+                                android:textColorHint="@color/blueDarkSena"
+                                app:boxBackgroundMode="outline"
+                                app:endIconMode="clear_text"
+                                app:hintTextColor="@color/blueDarkSena"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:inputType="text" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </LinearLayout>
 
 
 
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

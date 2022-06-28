@@ -25,5 +25,7 @@
     <dimen name="sena_1">12sp</dimen>
     <dimen name="sena_2">15sp</dimen>
 
+    <dimen name="questions">18sp</dimen>
+
 
 </resources>
