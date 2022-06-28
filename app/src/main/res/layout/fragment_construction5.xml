@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".ui.user.menuModules.constructionUser.ConstructionFragment5">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -943,6 +949,5 @@
 
         </CheckBox>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
