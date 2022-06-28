@@ -164,7 +164,7 @@
                             android:id="@+id/txtUndergroundSources"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:inputType="text" />
+                            android:inputType="date" />
 
                     </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
@@ -576,7 +576,7 @@
                             android:background="@color/purple_500"
                             android:hint="¿Cuántos?"
                             android:textColorHint="@color/blueDarkSena"
-                            android:visibility="gone"
+                            android:visibility="visible"
                             app:boxBackgroundMode="outline"
                             app:endIconMode="clear_text"
                             app:hintTextColor="@color/blueDarkSena"
@@ -1167,7 +1167,7 @@
                         android:background="@color/purple_500"
                         android:hint="¿Cuál?"
                         android:textColorHint="@color/blueDarkSena"
-                        android:visibility="gone"
+                        android:visibility="visible"
                         app:boxBackgroundMode="outline"
                         app:endIconMode="clear_text"
                         app:hintTextColor="@color/blueDarkSena"
@@ -1336,12 +1336,12 @@
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="52dp"
+                        android:layout_marginLeft="72dp"
                         android:alpha=".6"
                         android:background="@color/purple_500"
                         android:hint="¿Cuál?"
                         android:textColorHint="@color/blueDarkSena"
-                        android:visibility="gone"
+                        android:visibility="visible"
                         app:boxBackgroundMode="outline"
                         app:endIconMode="clear_text"
                         app:hintTextColor="@color/blueDarkSena"
@@ -1355,6 +1355,13 @@
                             android:inputType="text" />
 
                     </com.google.android.material.textfield.TextInputLayout>
+
+                    <EditText
+                        android:id="@+id/editTextDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="date" />
 
                 </LinearLayout>
 
@@ -1601,6 +1608,20 @@
 
 
             </LinearLayout>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/blueDarkSena"
+                android:drawableEnd="@drawable/ic_exit_to_app"
+                android:layout_marginLeft="200dp"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout15" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
