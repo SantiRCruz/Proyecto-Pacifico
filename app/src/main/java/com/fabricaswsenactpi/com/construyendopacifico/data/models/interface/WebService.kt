@@ -69,7 +69,7 @@ object RetrofitClient{
     val webService by lazy {
 
         Retrofit.Builder()
-            .baseUrl(AppConstants.BASE_URL_LOCAL)
+            .baseUrl(AppConstants.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(WebService::class.java)

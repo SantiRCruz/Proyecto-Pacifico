@@ -141,6 +141,10 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                             }
                         }
                         is Result.Failure -> {
+                            Log.e("sendUser: ", it.exception.localizedMessage)
+                            println(it.exception.stackTrace)
+                            Log.e("sendUser: ", it.exception.cause.toString())
+                            Log.e("sendUser: ", it.exception.suppressed.toString())
                             binding.btnLogin.show()
                             binding.progressBar.hide()
                             Snackbar.make(
