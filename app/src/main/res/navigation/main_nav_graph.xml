@@ -89,6 +89,9 @@
             app:popExitAnim="@anim/slide_out_right" />
         <argument android:name="population"
             app:argType="com.fabricaswsenactpi.com.construyendopacifico.data.models.web.population.PopulationResponse" />
+        <action
+            android:id="@+id/action_menuModules2_to_constructionFragment"
+            app:destination="@id/constructionFragment" />
     </fragment>
     <fragment
         android:id="@+id/analyzeWaterParameters"
@@ -109,4 +112,18 @@
             android:id="@+id/action_analyzeWaterParameters_self"
             app:destination="@id/analyzeWaterParameters" />
     </fragment>
+    <fragment
+        android:id="@+id/constructionFragment"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.constructionUser.ConstructionFragment"
+        android:label="fragment_construction"
+        tools:layout="@layout/fragment_construction" >
+        <action
+            android:id="@+id/action_constructionFragment_to_constructionFragment2"
+            app:destination="@id/constructionFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/constructionFragment2"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.constructionUser.ConstructionFragment2"
+        android:label="fragment_construction2"
+        tools:layout="@layout/fragment_construction2" />
 </navigation>
