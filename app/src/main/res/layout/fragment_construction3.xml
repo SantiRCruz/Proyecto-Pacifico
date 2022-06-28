@@ -1407,6 +1407,16 @@
                             android:text="@string/no" />
                     </RadioGroup>
                 </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:drawableEnd="@drawable/ic_exit_to_app"
+                    android:text="Siguiente" />
+
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
