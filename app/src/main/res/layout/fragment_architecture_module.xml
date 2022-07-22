@@ -140,6 +140,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/cardChar"
                         android:layout_width="0dp"
                         android:layout_height="200dp"
                         android:layout_weight="1"

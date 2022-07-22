@@ -116,5 +116,14 @@
         android:id="@+id/architectureModuleFragment"
         android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.architectureUser.ArchitectureModuleFragment"
         android:label="fragment_architecture_module"
-        tools:layout="@layout/fragment_architecture_module" />
+        tools:layout="@layout/fragment_architecture_module" >
+        <action
+            android:id="@+id/action_architectureModuleFragment_to_characterizeFragment"
+            app:destination="@id/characterizeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterizeFragment"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.architectureUser.characterization.CharacterizeFragment"
+        android:label="fragment_characterize"
+        tools:layout="@layout/fragment_characterize" />
 </navigation>

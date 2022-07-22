@@ -92,6 +92,11 @@
     <string name="observaci_n">Observación</string>
     <string name="caracterizaci_n">Caracterización</string>
     <string name="architecture">Arquitectura de construccion del pacífico</string>
+    <string name="question1D">Cuántas familias comparten la vivienda:</string>
+    <string name="question2D">Número de personas que habitan la vivienda:</string>
+    <string name="question3D">3. Número de niños de 0 a 14 años en la vivienda:</string>
+    <string name="question4D">4. Número de jóvenes de 14 a 18 años en la vivienda:</string>
+    <string name="question5D">5. numero de adultos, mayores de 18 años en la vivienda:</string>
 
 
 </resources>
