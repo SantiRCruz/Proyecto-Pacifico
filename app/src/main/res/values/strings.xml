@@ -89,6 +89,9 @@
     <string name="saveAnalysis">Guardar Analisis</string>
     <string name="noAnalysis">No se puede comenzar a tomar muestras sin guardar previamente un analisis</string>
     <string name="noSamples">No hay muestras registradas</string>
+    <string name="observaci_n">Observación</string>
+    <string name="caracterizaci_n">Caracterización</string>
+    <string name="architecture">Arquitectura de construccion del pacífico</string>
 
 
 </resources>

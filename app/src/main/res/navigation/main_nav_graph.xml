@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/zonesMenu">
+    app:startDestination="@id/menuModules2">
     <fragment
         android:id="@+id/zonesFormCreate"
         android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menu.ZonesFormCreate"
@@ -89,6 +89,9 @@
             app:popExitAnim="@anim/slide_out_right" />
         <argument android:name="population"
             app:argType="com.fabricaswsenactpi.com.construyendopacifico.data.models.web.population.PopulationResponse" />
+        <action
+            android:id="@+id/action_menuModules2_to_architectureModuleFragment"
+            app:destination="@id/architectureModuleFragment" />
     </fragment>
     <fragment
         android:id="@+id/analyzeWaterParameters"
@@ -109,4 +112,9 @@
             android:id="@+id/action_analyzeWaterParameters_self"
             app:destination="@id/analyzeWaterParameters" />
     </fragment>
+    <fragment
+        android:id="@+id/architectureModuleFragment"
+        android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menuModules.architectureUser.ArchitectureModuleFragment"
+        android:label="fragment_architecture_module"
+        tools:layout="@layout/fragment_architecture_module" />
 </navigation>

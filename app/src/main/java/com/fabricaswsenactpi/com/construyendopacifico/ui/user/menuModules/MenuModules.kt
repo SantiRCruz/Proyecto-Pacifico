@@ -27,6 +27,10 @@ class MenuModules : Fragment(R.layout.fragment_menu_modules) {
             findNavController().navigate(R.id.action_menuModules2_to_zonesMenu)
         }
 
+        binding.idCardArchitecture.setOnClickListener {
+            findNavController().navigate(R.id.action_menuModules2_to_architectureModuleFragment)
+        }
+
     }
 
 }
