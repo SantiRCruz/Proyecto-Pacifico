@@ -721,7 +721,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/question5D"
-                        android:textSize="@dimen/questions"
+                        android:textSize="15sp"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -738,11 +738,12 @@
                             android:layout_marginTop="5dp"
                             android:orientation="horizontal">
 
+
+
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="1"
-                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -750,7 +751,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="2"
-                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -758,7 +758,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="3"
-                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -766,7 +765,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="4"
-                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -774,7 +772,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="5"
-                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -782,7 +779,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="6"
-                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
@@ -790,7 +786,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="más de 7"
-                                android:textSize="@dimen/questions"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
                         </RadioGroup>
@@ -799,9 +794,6 @@
 
 
                 </LinearLayout>
-
-
-
 
             </LinearLayout>
             <View
@@ -835,8 +827,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question6"
-                        android:textSize="@dimen/questions"
+                        android:text="@string/question6D"
+                        android:textSize="15sp"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -844,7 +836,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
-
 
                         <RadioGroup
                             android:layout_width="wrap_content"
@@ -856,40 +847,61 @@
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/yes"
-                                android:textSize="@dimen/questions"
+                                android:text="0"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:text="@string/no"
-                                android:textSize="@dimen/questions"
+                                android:text="1"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:text="En ocasiones"
-                                android:textSize="@dimen/questions"
+                                android:text="2"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="más de 7"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
                         </RadioGroup>
-
                     </LinearLayout>
-
-
                 </LinearLayout>
-
-
-
-
             </LinearLayout>
             <View
                 android:id="@+id/line8"
@@ -911,9 +923,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line8">
 
-
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -924,123 +933,98 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question7"
-                        android:textSize="@dimen/questions"
+                        android:text="@string/question7D"
+                        android:textSize="15sp"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_gravity="center"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
+                        <RadioGroup
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
 
                             <CheckBox
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/farmers"
-                                android:textSize="@dimen/questions"
+                                android:text="1"
                                 android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <CheckBox
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/fishermen"
-                                android:textSize="@dimen/questions"
+                                android:text="2"
                                 android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <CheckBox
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/merchants"
-                                android:textSize="@dimen/questions"
+                                android:text="3"
                                 android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <CheckBox
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/miners"
-                                android:textSize="@dimen/questions"
+                                android:text="4"
                                 android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
-                        </LinearLayout>
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="más de 7"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                        </RadioGroup>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="120dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="30dp"
-                            android:orientation="vertical">
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="6dp"
+                            android:alpha=".6"
+                            android:background="@color/purple_500"
+                            android:hint="¿Cuántos?"
+                            android:textColorHint="@color/blueDarkSena"
+                            android:visibility="visible"
+                            app:boxBackgroundMode="outline"
+                            app:endIconMode="clear_text"
+                            app:hintTextColor="@color/blueDarkSena"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/forestryActivities"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="49dp"
+                                android:inputType="text" />
 
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/builders"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
-
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/employees"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
-
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/other"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
-
-                        </LinearLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
                     </LinearLayout>
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="46dp"
-                        android:alpha=".6"
-                        android:background="@color/purple_500"
-                        android:hint="¿Cuál?"
-                        android:textColorHint="@color/blueDarkSena"
-                        android:visibility="visible"
-                        app:boxBackgroundMode="outline"
-                        app:endIconMode="clear_text"
-                        app:hintTextColor="@color/blueDarkSena"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="49dp"
-                            android:inputType="text" />
-
-                    </com.google.android.material.textfield.TextInputLayout>
-
                 </LinearLayout>
 
 
@@ -1068,9 +1052,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line9">
 
-
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -1081,8 +1062,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/question8"
-                        android:textSize="@dimen/questions"
+                        android:text="@string/question8D"
+                        android:textSize="15sp"
                         android:textColor="@color/blueDarkSena"
                         android:textStyle="bold" />
 
@@ -1093,112 +1074,104 @@
                         android:layout_gravity="center"
                         android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
+                        <RadioGroup
+                            android:layout_width="230dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
                             android:orientation="vertical">
 
-                            <CheckBox
+                            <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/Inheritance"
-                                android:textSize="@dimen/questions"
+                                android:text="a. Si todos diermen en compañia de adultos"
+                                android:textSize="15sp"
                                 android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
-                            <CheckBox
+                            <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/ownFunds"
-                                android:textSize="@dimen/questions"
+                                android:text="b. No, ninguno duerme en compañia de adultos"
+                                android:textSize="15dp"
                                 android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
-                            <CheckBox
+                            <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textSize="@dimen/questions"
-                                android:text="@string/subsidies"
+                                android:text="c. En ocasiones duermen con adultos"
+                                android:textSize="15dp"
                                 android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
-                            <CheckBox
+                            <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/BankLoan"
-                                android:textSize="@dimen/questions"
+                                android:text="d. Algunos duermen con adultos, cuantos"
+                                android:textSize="15dp"
                                 android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
+                        </RadioGroup>
 
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textSize="@dimen/questions"
-                                android:text="@string/PrivateLoan"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
 
-                        </LinearLayout>
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="20dp"-->
+<!--                            android:orientation="vertical">-->
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:orientation="vertical">
+<!--                            <CheckBox-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/PopularAssociations"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold"/>-->
 
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/PopularAssociations"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+<!--                            <CheckBox-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/CouncilManagement"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold"/>-->
 
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/CouncilManagement"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+<!--                            <CheckBox-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/cooperatives"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold"/>-->
 
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/cooperatives"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+<!--                            <CheckBox-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/minga"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold"/>-->
 
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/minga"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
+<!--                            <CheckBox-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/other"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold"/>-->
 
-                            <CheckBox
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/other"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold"/>
-
-                        </LinearLayout>
+<!--                        </LinearLayout>-->
                     </LinearLayout>
-
                     <com.google.android.material.textfield.TextInputLayout
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                        android:layout_width="100dp"
+                        android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="72dp"
+                        android:layout_marginLeft="6dp"
                         android:alpha=".6"
                         android:background="@color/purple_500"
-                        android:hint="¿Cuál?"
+                        android:hint="¿Cuántos?"
                         android:textColorHint="@color/blueDarkSena"
                         android:visibility="visible"
                         app:boxBackgroundMode="outline"
@@ -1214,14 +1187,6 @@
                             android:inputType="text" />
 
                     </com.google.android.material.textfield.TextInputLayout>
-
-                    <EditText
-                        android:id="@+id/editTextDate"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="date" />
-
                 </LinearLayout>
 
 
@@ -1239,248 +1204,251 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
                 tools:ignore="MissingConstraints" />
-            <LinearLayout
-                android:id="@+id/linearLayout14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
-                android:orientation="horizontal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/line10">
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayout14"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="6dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/line10">-->
 
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="8dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:orientation="vertical">-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/question9"
-                        android:textSize="@dimen/questions"
-                        android:textColor="@color/blueDarkSena"
-                        android:textStyle="bold" />
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/question9"-->
+<!--                        android:textSize="@dimen/questions"-->
+<!--                        android:textColor="@color/blueDarkSena"-->
+<!--                        android:textStyle="bold" />-->
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="horizontal">
-
-
-                        <RadioGroup
-                            android:layout_width="230dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:orientation="vertical">
-
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/preschool"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/primaryBasic"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/highSchool"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/technicalSchool"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-                        </RadioGroup>
-                        <RadioGroup
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:orientation="vertical">
-
-                            <RadioButton
-                                android:layout_width="200dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/ProfessionalTechnician"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textSize="@dimen/questions"
-                                android:text="@string/Technologist"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/Professional"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/Specialization"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/Postgraduate"
-                                android:textSize="@dimen/questions"
-                                android:textColor="@color/graySenaVariant"
-                                android:textStyle="bold" />
-
-                        </RadioGroup>
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal">-->
 
 
+<!--                        <RadioGroup-->
+<!--                            android:layout_width="230dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:orientation="vertical">-->
 
-                    </LinearLayout>
+<!--                            <RadioButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/preschool"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
 
+<!--                            <RadioButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/primaryBasic"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
 
-                </LinearLayout>
+<!--                            <RadioButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/highSchool"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
+
+<!--                            <RadioButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/technicalSchool"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
+<!--                        </RadioGroup>-->
+<!--                        <RadioGroup-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:orientation="vertical">-->
+
+<!--                            <RadioButton-->
+<!--                                android:layout_width="200dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/ProfessionalTechnician"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
+
+<!--                            <RadioButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:text="@string/Technologist"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
+
+<!--                            <RadioButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/Professional"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
+
+<!--                            <RadioButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/Specialization"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
+
+<!--                            <RadioButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/Postgraduate"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textColor="@color/graySenaVariant"-->
+<!--                                android:textStyle="bold" />-->
+
+<!--                        </RadioGroup>-->
 
 
 
-
-            </LinearLayout>
-            <View
-                android:id="@+id/line11"
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:layout_marginTop="6dp"
-                android:background="@color/orangeSena"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout14"
-                tools:ignore="MissingConstraints" />
-            <LinearLayout
-                android:id="@+id/linearLayout15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
-                android:orientation="horizontal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/line11">
+<!--                    </LinearLayout>-->
 
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/question10"
-                        android:textSize="@dimen/questions"
-                        android:textColor="@color/blueDarkSena"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
-
-                        <LinearLayout
-                            android:layout_width="391dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:layout_marginTop="6dp"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="@string/AgeNumber"
-                                android:textSize="@dimen/questions"
-                                android:textStyle="bold" />
-
-                            <com.google.android.material.textfield.TextInputLayout
-                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:alpha=".6"
-                                android:background="@color/purple_500"
-                                android:hint="@string/numbers"
-                                android:textColorHint="@color/blueDarkSena"
-                                app:boxBackgroundMode="outline"
-                                app:endIconMode="clear_text"
-                                app:hintTextColor="@color/blueDarkSena"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
-
-                                <com.google.android.material.textfield.TextInputEditText
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:inputType="text" />
-
-                            </com.google.android.material.textfield.TextInputLayout>
-
-                        </LinearLayout>
+<!--                </LinearLayout>-->
 
 
 
 
-                    </LinearLayout>
+<!--            </LinearLayout>-->
+
+<!--            -->
+<!--            <View-->
+<!--                android:id="@+id/line11"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="2dp"-->
+<!--                android:layout_marginTop="6dp"-->
+<!--                android:background="@color/orangeSena"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/linearLayout14"-->
+<!--                tools:ignore="MissingConstraints" />-->
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayout15"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="6dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/line11">-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="8dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/question10"-->
+<!--                        android:textSize="@dimen/questions"-->
+<!--                        android:textColor="@color/blueDarkSena"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintHorizontal_bias="0.0"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="391dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:layout_marginTop="6dp"-->
+<!--                            android:gravity="center"-->
+<!--                            android:orientation="vertical">-->
+
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/AgeNumber"-->
+<!--                                android:textSize="@dimen/questions"-->
+<!--                                android:textStyle="bold" />-->
+
+<!--                            <com.google.android.material.textfield.TextInputLayout-->
+<!--                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:alpha=".6"-->
+<!--                                android:background="@color/purple_500"-->
+<!--                                android:hint="@string/numbers"-->
+<!--                                android:textColorHint="@color/blueDarkSena"-->
+<!--                                app:boxBackgroundMode="outline"-->
+<!--                                app:endIconMode="clear_text"-->
+<!--                                app:hintTextColor="@color/blueDarkSena"-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">-->
+
+<!--                                <com.google.android.material.textfield.TextInputEditText-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:inputType="text" />-->
+
+<!--                            </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--                        </LinearLayout>-->
 
 
 
 
-                </LinearLayout>
+<!--                    </LinearLayout>-->
 
 
 
 
-            </LinearLayout>
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnNext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="30dp"
-                android:backgroundTint="@color/blueDarkSena"
-                android:drawableEnd="@drawable/ic_exit_to_app"
-                android:layout_marginLeft="200dp"
-                android:text="@string/next"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout15" />
+<!--                </LinearLayout>-->
+
+
+
+
+<!--            </LinearLayout>-->
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:id="@+id/btnNext"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_marginBottom="30dp"-->
+<!--                android:backgroundTint="@color/blueDarkSena"-->
+<!--                android:drawableEnd="@drawable/ic_exit_to_app"-->
+<!--                android:layout_marginLeft="200dp"-->
+<!--                android:text="@string/next"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/linearLayout15" />-->
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

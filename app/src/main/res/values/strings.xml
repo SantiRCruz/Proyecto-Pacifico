@@ -97,6 +97,9 @@
     <string name="question3D">3. Número de niños de 0 a 14 años en la vivienda:</string>
     <string name="question4D">4. Número de jóvenes de 14 a 18 años en la vivienda:</string>
     <string name="question5D">5. numero de adultos, mayores de 18 años en la vivienda:</string>
+    <string name="question6D">6. Numero de adultos mayores (de 65 años en adelante)</string>
+    <string name="question7D">7. Cuantas personas duermen por habitación</string>
+    <string name="question8D">8. Los menores duermen por habitación:</string>
 
 
 </resources>

@@ -213,69 +213,69 @@ class ZonesFormCreate : Fragment(R.layout.fragment_zones_form_create) {
     }
 
 
-    private fun saveWebData() {
-        val byteArrayOutputStream = ByteArrayOutputStream()
-        bitmap?.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream)
-        val byteArray = byteArrayOutputStream.toByteArray()
-        val base64 = Base64.encodeToString(byteArray, Base64.DEFAULT)
-        viewLifecycleOwner.lifecycleScope.launchWhenCreated {
-            viewLifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
-                viewModelPopulation.saveWebPopulation(
-                    PopulationBody(
-                        "0",
-                        binding.txtCatchemntType!!.text.toString(),
-                        selectedEthnicGroup.id_ethnic_group.toInt(),
-                        binding.txtInhabitantsNumber!!.text.toString(),
-                        binding.latitude!!.text.toString(),
-                        binding.length!!.text.toString(),
-                        base64,
-                        selectedPopulatedGroup.id_populated_center.toInt(),
-                        binding.txtSurfaceSources!!.text.toString(),
-                        binding.txtUndergroundSources!!.text.toString(),
-                    )
-                ).collect {
-                    when (it) {
-                        is Result.Loading -> {
-                            binding.btnProgressBar?.show()
-                            binding.btnGuardar?.hide()
-                        }
-                        is Result.Success -> {
-                            binding.btnGuardar?.show()
-                            binding.btnProgressBar?.hide()
-                            if (it.data.results.isNullOrEmpty()){
-                                Snackbar.make(
-                                    binding.root,
-                                    "Esta vereda ya se encuentra registrada ",
-                                    Snackbar.LENGTH_SHORT
-                                ).show()
-                            }else{
-                            Snackbar.make(
-                                binding.root,
-                                "Se registro correctamente",
-                                Snackbar.LENGTH_SHORT
-                            ).show()
-                            val action =
-                                ZonesFormCreateDirections.actionZonesFormCreateToMenuModules22(
-                                    it.data.results[0]
-                                )
-                            findNavController().navigate(action)
-                            }
-                        }
-                        is Result.Failure -> {
-                            binding.btnGuardar?.show()
-                            binding.btnProgressBar?.hide()
-                            Snackbar.make(
-                                binding.root,
-                                "Error al registrarse",
-                                Snackbar.LENGTH_SHORT
-                            ).show()
-                            Log.e("Error", "sendUser: ${it.exception}")
-                        }
-                    }
-                }
-            }
-        }
-    }
+//    private fun saveWebData() {
+//        val byteArrayOutputStream = ByteArrayOutputStream()
+//        bitmap?.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream)
+//        val byteArray = byteArrayOutputStream.toByteArray()
+//        val base64 = Base64.encodeToString(byteArray, Base64.DEFAULT)
+//        viewLifecycleOwner.lifecycleScope.launchWhenCreated {
+//            viewLifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
+//                viewModelPopulation.saveWebPopulation(
+//                    PopulationBody(
+//                        "0",
+//                        binding.txtCatchemntType!!.text.toString(),
+//                        selectedEthnicGroup.id_ethnic_group.toInt(),
+//                        binding.txtInhabitantsNumber!!.text.toString(),
+//                        binding.latitude!!.text.toString(),
+//                        binding.length!!.text.toString(),
+//                        base64,
+//                        selectedPopulatedGroup.id_populated_center.toInt(),
+//                        binding.txtSurfaceSources!!.text.toString(),
+//                        binding.txtUndergroundSources!!.text.toString(),
+//                    )
+//                ).collect {
+//                    when (it) {
+//                        is Result.Loading -> {
+//                            binding.btnProgressBar?.show()
+//                            binding.btnGuardar?.hide()
+//                        }
+//                        is Result.Success -> {
+//                            binding.btnGuardar?.show()
+//                            binding.btnProgressBar?.hide()
+//                            if (it.data.results.isNullOrEmpty()){
+//                                Snackbar.make(
+//                                    binding.root,
+//                                    "Esta vereda ya se encuentra registrada ",
+//                                    Snackbar.LENGTH_SHORT
+//                                ).show()
+//                            }else{
+//                            Snackbar.make(
+//                                binding.root,
+//                                "Se registro correctamente",
+//                                Snackbar.LENGTH_SHORT
+//                            ).show()
+//                            val action =
+//                                ZonesFormCreateDirections.actionZonesFormCreateToMenuModules22(
+//                                    it.data.results[0]
+//                                )
+//                            findNavController().navigate(action)
+//                            }
+//                        }
+//                        is Result.Failure -> {
+//                            binding.btnGuardar?.show()
+//                            binding.btnProgressBar?.hide()
+//                            Snackbar.make(
+//                                binding.root,
+//                                "Error al registrarse",
+//                                Snackbar.LENGTH_SHORT
+//                            ).show()
+//                            Log.e("Error", "sendUser: ${it.exception}")
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//    }
 
     private fun obtainDepartments() {
         viewLifecycleOwner.lifecycleScope.launchWhenCreated {
@@ -446,23 +446,23 @@ class ZonesFormCreate : Fragment(R.layout.fragment_zones_form_create) {
     }
 
     private fun validate() {
-        binding.btnGuardar?.setOnClickListener {
-            val results = arrayOf(
-                validateDepartment(),
-                validateMunicipality(),
-                validatePopulatedCenter(),
-                validateEthnicGroup(),
-                validateSurfaceSources(),
-                validateUndergroundSources(),
-                validateInhabitantsNumber(),
-                validateCatchmentType()
-            )
-            if (false in results) {
-                return@setOnClickListener
-            }
-//            saveData()
-            saveWebData()
-        }
+//        binding.btnGuardar?.setOnClickListener {
+//            val results = arrayOf(
+//                validateDepartment(),
+//                validateMunicipality(),
+//                validatePopulatedCenter(),
+//                validateEthnicGroup(),
+//                validateSurfaceSources(),
+//                validateUndergroundSources(),
+//                validateInhabitantsNumber(),
+//                validateCatchmentType()
+//            )
+//            if (false in results) {
+//                return@setOnClickListener
+//            }
+////            saveData()
+//            saveWebData()
+//        }
     }
 
     private fun validateDepartment(): Boolean {
@@ -505,25 +505,25 @@ class ZonesFormCreate : Fragment(R.layout.fragment_zones_form_create) {
         }
     }
 
-    private fun validateSurfaceSources(): Boolean {
-        return if (binding.txtSurfaceSources?.text.toString().isEmpty()) {
-            binding.txtILSurfaceSources!!.error = "Este campo es obligatorio"
-            false
-        } else {
-            binding.txtILSurfaceSources!!.error = null
-            true
-        }
-    }
+//    private fun validateSurfaceSources(): Boolean {
+//        return if (binding.txtSurfaceSources?.text.toString().isEmpty()) {
+//            binding.txtILSurfaceSources!!.error = "Este campo es obligatorio"
+//            false
+//        } else {
+//            binding.txtILSurfaceSources!!.error = null
+//            true
+//        }
+//    }
 
-    private fun validateUndergroundSources(): Boolean {
-        return if (binding.txtUndergroundSources?.text.toString().isEmpty()) {
-            binding.txtILUnderGroundSources!!.error = "Este campo es obligatorio"
-            false
-        } else {
-            binding.txtILUnderGroundSources!!.error = null
-            true
-        }
-    }
+//    private fun validateUndergroundSources(): Boolean {
+//        return if (binding.txtUndergroundSources?.text.toString().isEmpty()) {
+//            binding.txtILUnderGroundSources!!.error = "Este campo es obligatorio"
+//            false
+//        } else {
+//            binding.txtILUnderGroundSources!!.error = null
+//            true
+//        }
+//    }
 
     private fun validateInhabitantsNumber(): Boolean {
         return if (binding.txtInhabitantsNumber?.text.toString().isEmpty()) {
@@ -535,13 +535,13 @@ class ZonesFormCreate : Fragment(R.layout.fragment_zones_form_create) {
         }
     }
 
-    private fun validateCatchmentType(): Boolean {
-        return if (binding.txtCatchemntType?.text.toString().isEmpty()) {
-            binding.txtILCatchmentType!!.error = "Este campo es obligatorio"
-            false
-        } else {
-            binding.txtILCatchmentType!!.error = null
-            true
-        }
-    }
+//    private fun validateCatchmentType(): Boolean {
+//        return if (binding.txtCatchemntType?.text.toString().isEmpty()) {
+//            binding.txtILCatchmentType!!.error = "Este campo es obligatorio"
+//            false
+//        } else {
+//            binding.txtILCatchmentType!!.error = null
+//            true
+//        }
+//    }
 }

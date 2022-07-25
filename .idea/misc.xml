@@ -5,6 +5,17 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/confirm_delete_zone.xml" value="0.18541666666666667" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/drawable/round_analisis.xml" value="0.1975" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/activity_auth.xml" value="0.1" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_analyze_water_parameters.xml" value="0.33" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_architecture_module.xml" value="0.3625" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_characterize.xml" value="0.33" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_create.xml" value="0.33" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_update.xml" value="0.3625" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_menu.xml" value="0.3625" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/item_menu_zones.xml" value="0.47953216374269003" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/item_water_types.xml" value="0.1" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/list_item.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.24322916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/drawable/ic_camera.xml" value="0.24322916666666666" />
@@ -20,12 +31,6 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/fragment_zones_form_create.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/fragment_zones_form_update.xml" value="0.212890625" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/list_item.xml" value="0.25052083333333336" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Proyecto-Pacifico/app/src/main/res/layout/fragment_architecture_module.xml" value="0.1" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Proyecto-Pacifico/app/src/main/res/layout/fragment_characterize.xml" value="0.33" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Proyecto-Pacifico/app/src/main/res/layout/fragment_construction.xml" value="0.33" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Proyecto-Pacifico/app/src/main/res/layout/fragment_menu_modules.xml" value="0.25" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_update.xml" value="0.1453804347826087" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_menu.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/SRC ASUS/StudioProjects/ContruyendoPacifico/app/src/main/res/drawable/corner_white_right_radious.xml" value="0.134" />
         <entry key="..\:/Users/SRC ASUS/StudioProjects/ContruyendoPacifico/app/src/main/res/drawable/round_corners.xml" value="0.146" />
         <entry key="..\:/Users/SRC ASUS/StudioProjects/ContruyendoPacifico/app/src/main/res/layout-land/activity_login.xml" value="0.1" />
