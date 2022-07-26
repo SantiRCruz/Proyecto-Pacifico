@@ -305,13 +305,17 @@ class AnalyzeWaterParameters : Fragment(R.layout.fragment_analyze_water_paramete
         viewLifecycleOwner.lifecycleScope.launchWhenCreated {
             viewLifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED){
                 viewModelAnalysis.saveAnalysis(AnalysisBody(
+                    idUser,
+                    args.population.id_population,
+                    waterType,
+                    1,
                     dateFormat,
                     hourFormat,
-                    args.population.id_population,
                     "prueba",
-                    1,
-                    idUser,
-                    waterType
+                    binding.txtSurfaceSources.toString(),
+                    binding.txtILUnderGroundSources.toString(),
+                    binding.txtCatchemntType.toString(),
+
                 )).collect {
                     when(it){
                         is Result.Loading ->{
@@ -324,7 +328,6 @@ class AnalyzeWaterParameters : Fragment(R.layout.fragment_analyze_water_paramete
                             binding.screenSamples.show()
                             binding.btnSaveProgressBar.hide()
                             analysisList = it.data.results
-
                         }
                         is Result.Failure ->{
                             enableCheckButtons(true)

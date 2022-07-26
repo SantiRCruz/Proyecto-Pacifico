@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/menuModules2">
+    app:startDestination="@id/zonesMenu">
     <fragment
         android:id="@+id/zonesFormCreate"
         android:name="com.fabricaswsenactpi.com.construyendopacifico.ui.user.menu.ZonesFormCreate"
@@ -92,6 +92,9 @@
         <action
             android:id="@+id/action_menuModules2_to_architectureModuleFragment"
             app:destination="@id/architectureModuleFragment" />
+        <action
+            android:id="@+id/action_menuModules2_to_analyzeWaterParameters2"
+            app:destination="@id/analyzeWaterParameters" />
     </fragment>
     <fragment
         android:id="@+id/analyzeWaterParameters"

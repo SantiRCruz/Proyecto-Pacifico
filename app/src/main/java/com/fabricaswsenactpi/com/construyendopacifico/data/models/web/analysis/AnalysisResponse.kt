@@ -9,6 +9,9 @@ data class AnalysisResponse(
     val date: String,
     val hour: String,
     val sample_type: String,
+    val surface_sources: String,
+    val underground_sources: String,
+    val catchment_type: String,
     val created_at: String,
     val updated_at: String,
 )

@@ -17,7 +17,7 @@ class MenuModules : Fragment(R.layout.fragment_menu_modules) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding= FragmentMenuModulesBinding.bind(view)
+        binding = FragmentMenuModulesBinding.bind(view)
 
         binding.idCardWater.setOnClickListener {
             val action = MenuModulesDirections.actionMenuModules2ToAnalyzeWaterParameters(args.population)
@@ -30,7 +30,5 @@ class MenuModules : Fragment(R.layout.fragment_menu_modules) {
         binding.idCardArchitecture.setOnClickListener {
             findNavController().navigate(R.id.action_menuModules2_to_architectureModuleFragment)
         }
-
     }
-
 }

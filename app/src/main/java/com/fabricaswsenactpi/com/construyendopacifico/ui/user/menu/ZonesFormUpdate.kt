@@ -116,35 +116,35 @@ class ZonesFormUpdate : Fragment(R.layout.fragment_zones_form_update) {
         binding = FragmentZonesFormUpdateBinding.bind(view)
 
         selectedPopulatedGroup = PopulatedCentersResponse(args.population.id_populated_center,args.population.municipality_id,args.population.populated_center_name,args.population.populated_center_type,args.population.id_municipality,args.population.department_id,args.population.municipality_name)
-        selectedEthnicGroup = EthnicGroupResponse(args.population.id_ethnic_group.toString(),args.population.ethnic_group_name)
-        reference()
+//        selectedEthnicGroup = EthnicGroupResponse(args.population.id_ethnic_group.toString(),args.population.ethnic_group_name)
+//        reference()
         obtainDepartments()
         obtainMunicipalities(args.population.id_department)
         obtainPopulatedCenters(args.population.id_municipality)
         obtainEthnicGroup()
 
         buttonsOnClick()
-        validate()
+//        validate()
 
 
     }
 
-    private fun reference() {
-        val decodeString = Base64.decode(args.population.photography,Base64.DEFAULT)
-        val bitmap = BitmapFactory.decodeByteArray(decodeString,0,decodeString.size)
-        bitmapCreated = bitmap
-        binding.idImageZone.setImageBitmap(bitmap)
-        binding.autocompleteSelectDepartments.setText( args.population.department_name)
-        binding.autocompleteSelectMunicipalities.setText( args.population.municipality_name)
-        binding.length.text = args.population.length
-        binding.latitude.text = args.population.latitude
-        binding.autocompleteSelectVeredas.setText(args.population.populated_center_name)
-        binding.autocompleteSelectEthnicGroup.setText(args.population.ethnic_group_name)
-        binding.txtSurfaceSources.setText(args.population.surface_sources)
-        binding.txtUndergroundSources.setText(args.population.underground_sources)
-        binding.txtInhabitantsNumber.setText(args.population.inhabitants_number)
-        binding.txtCatchemntType.setText(args.population.catchment_type)
-    }
+//    private fun reference() {
+//        val decodeString = Base64.decode(args.population.photography,Base64.DEFAULT)
+//        val bitmap = BitmapFactory.decodeByteArray(decodeString,0,decodeString.size)
+//        bitmapCreated = bitmap
+//        binding.idImageZone.setImageBitmap(bitmap)
+//        binding.autocompleteSelectDepartments.setText( args.population.department_name)
+//        binding.autocompleteSelectMunicipalities.setText( args.population.municipality_name)
+//        binding.length.text = args.population.length
+//        binding.latitude.text = args.population.latitude
+//        binding.autocompleteSelectVeredas.setText(args.population.populated_center_name)
+//        binding.autocompleteSelectEthnicGroup.setText(args.population.ethnic_group_name)
+//        binding.txtSurfaceSources.setText(args.population.surface_sources)
+//        binding.txtUndergroundSources.setText(args.population.underground_sources)
+//        binding.txtInhabitantsNumber.setText(args.population.inhabitants_number)
+//        binding.txtCatchemntType.setText(args.population.catchment_type)
+//    }
 
     private fun buttonsOnClick() {
         binding.idBtnRegresar.setOnClickListener {
@@ -237,70 +237,70 @@ class ZonesFormUpdate : Fragment(R.layout.fragment_zones_form_update) {
     }
 
 
-    private fun validate() {
-        binding.btnUpdate?.setOnClickListener {
-            val results = arrayOf(
-                validateDepartment(), validateMunicipality(), validatePopulatedCenter(), validateEthnicGroup(), validateSurfaceSources(),
-                validateUndergroundSources(), validateInhabitantsNumber(), validateCatchmentType()
-            )
-            if (false in results) {
-                return@setOnClickListener
-            }
-            saveWebData()
-        }
-    }
+//    private fun validate() {
+//        binding.btnUpdate?.setOnClickListener {
+//            val results = arrayOf(
+//                validateDepartment(), validateMunicipality(), validatePopulatedCenter(), validateEthnicGroup(), validateSurfaceSources(),
+//                validateUndergroundSources(), validateInhabitantsNumber(), validateCatchmentType()
+//            )
+//            if (false in results) {
+//                return@setOnClickListener
+//            }
+//            saveWebData()
+//        }
+//    }
 
-    private fun saveWebData() {
-        val byteArrayOutputStream = ByteArrayOutputStream()
-        bitmapCreated?.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream)
-        val byteArray = byteArrayOutputStream.toByteArray()
-        val base64 = Base64.encodeToString(byteArray, Base64.DEFAULT)
-        viewLifecycleOwner.lifecycleScope.launchWhenCreated {
-            viewLifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
-                viewModelPopulation.updateWebPopulation(
-                    PopulationBody(
-                        "0",
-                        binding.txtCatchemntType!!.text.toString(),
-                        selectedEthnicGroup.id_ethnic_group.toInt(),
-                        binding.txtInhabitantsNumber!!.text.toString(),
-                        binding.latitude!!.text.toString(),
-                        binding.length!!.text.toString(),
-                        base64,
-                        selectedPopulatedGroup.id_populated_center.toInt(),
-                        binding.txtSurfaceSources!!.text.toString(),
-                        binding.txtUndergroundSources!!.text.toString(),
-                    ),args.population.id_population
-                ).collect {
-                    when (it) {
-                        is Result.Loading -> {
-                            binding.btnProgressBar?.show()
-                            binding.btnUpdate?.hide()
-                        }
-                        is Result.Success -> {
-                            binding.btnUpdate?.show()
-                            binding.btnProgressBar?.hide()
-                            Snackbar.make(
-                                binding.root,
-                                "Se actualizo correctamente",
-                                Snackbar.LENGTH_SHORT
-                            ).show()
-                            findNavController().navigate(R.id.action_zonesFormUpdate_to_zonesMenu)
-                        }
-                        is Result.Failure -> {
-                            binding.btnUpdate?.show()
-                            binding.btnProgressBar?.hide()
-                            Snackbar.make(
-                                binding.root,
-                                "Error al actualizar",
-                                Snackbar.LENGTH_SHORT
-                            ).show()
-                            Log.e("Error", "sendUser: ${it.exception}")
-                        }
-                    }
-                }
-            }
-        }
-    }
+//    private fun saveWebData() {
+//        val byteArrayOutputStream = ByteArrayOutputStream()
+//        bitmapCreated?.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream)
+//        val byteArray = byteArrayOutputStream.toByteArray()
+//        val base64 = Base64.encodeToString(byteArray, Base64.DEFAULT)
+//        viewLifecycleOwner.lifecycleScope.launchWhenCreated {
+//            viewLifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
+//                viewModelPopulation.updateWebPopulation(
+//                    PopulationBody(
+//                        "0",
+//                        binding.txtCatchemntType!!.text.toString(),
+//                        selectedEthnicGroup.id_ethnic_group.toInt(),
+//                        binding.txtInhabitantsNumber!!.text.toString(),
+//                        binding.latitude!!.text.toString(),
+//                        binding.length!!.text.toString(),
+//                        base64,
+//                        selectedPopulatedGroup.id_populated_center.toInt(),
+//                        binding.txtSurfaceSources!!.text.toString(),
+//                        binding.txtUndergroundSources!!.text.toString(),
+//                    ),args.population.id_population
+//                ).collect {
+//                    when (it) {
+//                        is Result.Loading -> {
+//                            binding.btnProgressBar?.show()
+//                            binding.btnUpdate?.hide()
+//                        }
+//                        is Result.Success -> {
+//                            binding.btnUpdate?.show()
+//                            binding.btnProgressBar?.hide()
+//                            Snackbar.make(
+//                                binding.root,
+//                                "Se actualizo correctamente",
+//                                Snackbar.LENGTH_SHORT
+//                            ).show()
+//                            findNavController().navigate(R.id.action_zonesFormUpdate_to_zonesMenu)
+//                        }
+//                        is Result.Failure -> {
+//                            binding.btnUpdate?.show()
+//                            binding.btnProgressBar?.hide()
+//                            Snackbar.make(
+//                                binding.root,
+//                                "Error al actualizar",
+//                                Snackbar.LENGTH_SHORT
+//                            ).show()
+//                            Log.e("Error", "sendUser: ${it.exception}")
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//    }
 
 
 //    private fun saveData() {
@@ -538,25 +538,25 @@ class ZonesFormUpdate : Fragment(R.layout.fragment_zones_form_update) {
         }
     }
 
-    private fun validateSurfaceSources(): Boolean {
-        return if (binding.txtSurfaceSources?.text.toString().isEmpty()) {
-            binding.txtILSurfaceSources!!.error = "Este campo es obligatorio"
-            false
-        } else {
-            binding.txtILSurfaceSources!!.error = null
-            true
-        }
-    }
+//    private fun validateSurfaceSources(): Boolean {
+//        return if (binding.txtSurfaceSources?.text.toString().isEmpty()) {
+//            binding.txtILSurfaceSources!!.error = "Este campo es obligatorio"
+//            false
+//        } else {
+//            binding.txtILSurfaceSources!!.error = null
+//            true
+//        }
+//    }
 
-    private fun validateUndergroundSources(): Boolean {
-        return if (binding.txtUndergroundSources?.text.toString().isEmpty()) {
-            binding.txtILUnderGroundSources!!.error = "Este campo es obligatorio"
-            false
-        } else {
-            binding.txtILUnderGroundSources!!.error = null
-            true
-        }
-    }
+//    private fun validateUndergroundSources(): Boolean {
+//        return if (binding.txtUndergroundSources?.text.toString().isEmpty()) {
+//            binding.txtILUnderGroundSources!!.error = "Este campo es obligatorio"
+//            false
+//        } else {
+//            binding.txtILUnderGroundSources!!.error = null
+//            true
+//        }
+//    }
 
     private fun validateInhabitantsNumber(): Boolean {
         return if (binding.txtInhabitantsNumber?.text.toString().isEmpty()) {
@@ -568,15 +568,15 @@ class ZonesFormUpdate : Fragment(R.layout.fragment_zones_form_update) {
         }
     }
 
-    private fun validateCatchmentType(): Boolean {
-        return if (binding.txtCatchemntType?.text.toString().isEmpty()) {
-            binding.txtILCatchmentType!!.error = "Este campo es obligatorio"
-            false
-        } else {
-            binding.txtILCatchmentType!!.error = null
-            true
-        }
-    }
+//    private fun validateCatchmentType(): Boolean {
+//        return if (binding.txtCatchemntType?.text.toString().isEmpty()) {
+//            binding.txtILCatchmentType!!.error = "Este campo es obligatorio"
+//            false
+//        } else {
+//            binding.txtILCatchmentType!!.error = null
+//            true
+//        }
+//    }
 
     private fun setUpDepartments(departments: MutableList<String>) {
         val adapter = ArrayAdapter(requireContext(), R.layout.list_item, departments)

@@ -5,14 +5,18 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/confirm_delete_zone.xml" value="0.18541666666666667" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.246" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/drawable/ic_exit_to_app.xml" value="0.246" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/drawable/round_analisis.xml" value="0.1975" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/activity_auth.xml" value="0.1" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_analyze_water_parameters.xml" value="0.33" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_architecture_module.xml" value="0.3625" />
-        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_characterize.xml" value="0.33" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_characterize.xml" value="0.23406515580736545" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_menu_modules.xml" value="0.3625" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_create.xml" value="0.33" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_form_update.xml" value="0.3625" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/fragment_zones_menu.xml" value="0.3625" />
+        <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/item_ethnic_groups.xml" value="0.9" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/item_menu_zones.xml" value="0.47953216374269003" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/item_water_types.xml" value="0.1" />
         <entry key="..\:/Luna/Proyecto-Pacifico/app/src/main/res/layout/list_item.xml" value="0.1" />

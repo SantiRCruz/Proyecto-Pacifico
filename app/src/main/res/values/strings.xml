@@ -100,6 +100,10 @@
     <string name="question6D">6. Numero de adultos mayores (de 65 años en adelante)</string>
     <string name="question7D">7. Cuantas personas duermen por habitación</string>
     <string name="question8D">8. Los menores duermen por habitación:</string>
+    <string name="questions9D">9. La votacion productiva de la familia es:</string>
+    <string name="question10D">10. Las fuentes de financiación para la adquisición/Construccion de la vivienda proviene principalmente de :</string>
+    <string name="question11D">11. ¿Cuál es el nivel educativo más alto alcanzado en la familia?</string>
+    <string name="question15D">15. A qué tipo de riesgo esta propensa la vivienda</string>
 
 
 </resources>

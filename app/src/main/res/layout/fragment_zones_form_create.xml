@@ -441,7 +441,14 @@
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/rvEthnicGroup"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"/>
+                        android:layout_height="wrap_content"/>
+
+                    <ImageView
+                        android:id="@+id/imgUpdate2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_update_24"
+                        />
 
                 </LinearLayout>
 

@@ -31,7 +31,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
             <LinearLayout
                 android:id="@+id/idInicialForm"
                 android:layout_width="match_parent"
@@ -358,7 +357,6 @@
                     </RadioGroup>
                 </LinearLayout>
             </LinearLayout>
-
             <View
                 android:id="@+id/line2"
                 android:layout_width="match_parent"
@@ -484,7 +482,6 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-
             <View
                 android:id="@+id/line3"
                 android:layout_width="match_parent"
@@ -495,7 +492,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout5"
                 android:layout_width="match_parent"
@@ -586,7 +582,6 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-
             <View
                 android:id="@+id/line4"
                 android:layout_width="match_parent"
@@ -597,7 +592,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout7"
                 android:layout_width="match_parent"
@@ -688,7 +682,6 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-
             <View
                 android:id="@+id/line6"
                 android:layout_width="match_parent"
@@ -699,7 +692,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
                 tools:ignore="MissingConstraints" />
-
             <LinearLayout
                 android:id="@+id/linearLayout8"
                 android:layout_width="match_parent"
@@ -730,15 +722,12 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-
                         <RadioGroup
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginTop="5dp"
                             android:orientation="horizontal">
-
-
 
                             <RadioButton
                                 android:layout_width="wrap_content"
@@ -943,12 +932,11 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <RadioGroup
-                            android:layout_width="wrap_content"
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginTop="5dp"
                             android:orientation="horizontal">
+
 
                             <CheckBox
                                 android:layout_width="wrap_content"
@@ -985,20 +973,20 @@
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="6"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
 
-                            <RadioButton
+                            <CheckBox
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="más de 7"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
-                        </RadioGroup>
+                        </LinearLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
                             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -1022,9 +1010,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="49dp"
                                 android:inputType="text" />
-
                         </com.google.android.material.textfield.TextInputLayout>
                     </LinearLayout>
+
+
                 </LinearLayout>
 
 
@@ -1084,7 +1073,7 @@
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="a. Si todos diermen en compañia de adultos"
+                                android:text="Si todos diermen en compañia de adultos"
                                 android:textSize="15sp"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
@@ -1092,7 +1081,7 @@
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="b. No, ninguno duerme en compañia de adultos"
+                                android:text="No, ninguno duerme en compañia de adultos"
                                 android:textSize="15dp"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
@@ -1100,7 +1089,7 @@
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="c. En ocasiones duermen con adultos"
+                                android:text="En ocasiones duermen con adultos"
                                 android:textSize="15dp"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
@@ -1108,12 +1097,11 @@
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="d. Algunos duermen con adultos, cuantos"
+                                android:text="Algunos duermen con adultos, cuantos"
                                 android:textSize="15dp"
                                 android:textColor="@color/graySenaVariant"
                                 android:textStyle="bold" />
                         </RadioGroup>
-
 
 <!--                        <LinearLayout-->
 <!--                            android:layout_width="match_parent"-->
@@ -1160,39 +1148,9 @@
 <!--                                android:textSize="@dimen/questions"-->
 <!--                                android:textColor="@color/graySenaVariant"-->
 <!--                                android:textStyle="bold"/>-->
-
 <!--                        </LinearLayout>-->
                     </LinearLayout>
-                    <com.google.android.material.textfield.TextInputLayout
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                        android:layout_width="120dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="6dp"
-                        android:alpha=".6"
-                        android:background="@color/purple_500"
-                        android:hint="¿Cuántos?"
-                        android:textColorHint="@color/blueDarkSena"
-                        android:visibility="visible"
-                        app:boxBackgroundMode="outline"
-                        app:endIconMode="clear_text"
-                        app:hintTextColor="@color/blueDarkSena"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="49dp"
-                            android:inputType="text" />
-
-                    </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
-
-
-
-
-
             </LinearLayout>
             <View
                 android:id="@+id/line10"
@@ -1204,251 +1162,1244 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
                 tools:ignore="MissingConstraints" />
-
-<!--            <LinearLayout-->
-<!--                android:id="@+id/linearLayout14"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="6dp"-->
-<!--                android:orientation="horizontal"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/line10">-->
-
-
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginEnd="8dp"-->
-<!--                    android:layout_weight="1"-->
-<!--                    android:orientation="vertical">-->
-
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:text="@string/question9"-->
-<!--                        android:textSize="@dimen/questions"-->
-<!--                        android:textColor="@color/blueDarkSena"-->
-<!--                        android:textStyle="bold" />-->
-
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:gravity="center"-->
-<!--                        android:orientation="horizontal">-->
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line10">
 
 
-<!--                        <RadioGroup-->
-<!--                            android:layout_width="230dp"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_gravity="center"-->
-<!--                            android:orientation="vertical">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/preschool"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/questions9D"
+                        android:textSize="15sp"
+                        android:textColor="@color/blueDarkSena"
+                        android:textStyle="bold" />
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/primaryBasic"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/highSchool"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/technicalSchool"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
-<!--                        </RadioGroup>-->
-<!--                        <RadioGroup-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_gravity="center"-->
-<!--                            android:orientation="vertical">-->
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Agricultores"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="200dp"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/ProfessionalTechnician"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pescadores"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:text="@string/Technologist"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Comerciantes"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/Professional"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Actividades forestales"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/Specialization"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
+                        </LinearLayout>
 
-<!--                            <RadioButton-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/Postgraduate"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textColor="@color/graySenaVariant"-->
-<!--                                android:textStyle="bold" />-->
+                        <LinearLayout
+                            android:layout_width="159dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-<!--                        </RadioGroup>-->
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mineros"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Constructores"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Empleados"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
-<!--                    </LinearLayout>-->
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Otros"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="6dp"
+                                android:alpha=".6"
+                                android:background="@color/purple_500"
+                                android:hint="¿Cuántos?"
+                                android:textColorHint="@color/blueDarkSena"
+                                android:visibility="visible"
+                                app:boxBackgroundMode="outline"
+                                app:endIconMode="clear_text"
+                                app:hintTextColor="@color/blueDarkSena"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
-<!--                </LinearLayout>-->
-
-
-
-
-<!--            </LinearLayout>-->
-
-<!--            -->
-<!--            <View-->
-<!--                android:id="@+id/line11"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="2dp"-->
-<!--                android:layout_marginTop="6dp"-->
-<!--                android:background="@color/orangeSena"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/linearLayout14"-->
-<!--                tools:ignore="MissingConstraints" />-->
-<!--            <LinearLayout-->
-<!--                android:id="@+id/linearLayout15"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="6dp"-->
-<!--                android:orientation="horizontal"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/line11">-->
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="49dp"
+                                    android:inputType="text" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
 
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginEnd="8dp"-->
-<!--                    android:layout_weight="1"-->
-<!--                    android:orientation="vertical">-->
+                    </LinearLayout>
 
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:text="@string/question10"-->
-<!--                        android:textSize="@dimen/questions"-->
-<!--                        android:textColor="@color/blueDarkSena"-->
-<!--                        android:textStyle="bold" />-->
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:orientation="horizontal"-->
-<!--                        app:layout_constraintEnd_toEndOf="parent"-->
-<!--                        app:layout_constraintHorizontal_bias="0.0"-->
-<!--                        app:layout_constraintStart_toStartOf="parent"-->
-<!--                        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">-->
 
-<!--                        <LinearLayout-->
-<!--                            android:layout_width="391dp"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_weight="1"-->
-<!--                            android:layout_marginTop="6dp"-->
-<!--                            android:gravity="center"-->
-<!--                            android:orientation="vertical">-->
-
-<!--                            <TextView-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/AgeNumber"-->
-<!--                                android:textSize="@dimen/questions"-->
-<!--                                android:textStyle="bold" />-->
-
-<!--                            <com.google.android.material.textfield.TextInputLayout-->
-<!--                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:alpha=".6"-->
-<!--                                android:background="@color/purple_500"-->
-<!--                                android:hint="@string/numbers"-->
-<!--                                android:textColorHint="@color/blueDarkSena"-->
-<!--                                app:boxBackgroundMode="outline"-->
-<!--                                app:endIconMode="clear_text"-->
-<!--                                app:hintTextColor="@color/blueDarkSena"-->
-<!--                                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                                app:layout_constraintStart_toStartOf="parent"-->
-<!--                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">-->
-
-<!--                                <com.google.android.material.textfield.TextInputEditText-->
-<!--                                    android:layout_width="match_parent"-->
-<!--                                    android:layout_height="match_parent"-->
-<!--                                    android:inputType="text" />-->
-
-<!--                            </com.google.android.material.textfield.TextInputLayout>-->
-
-<!--                        </LinearLayout>-->
+                </LinearLayout>
 
 
 
 
-<!--                    </LinearLayout>-->
+            </LinearLayout>
+            <View
+                android:id="@+id/line11"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout14"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line11">
 
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question10D"
+                        android:textColor="@color/blueDarkSena"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Herencia"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fondos Propios"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Subsidios"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Préstamo Bancario"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Préstamo de Particular"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Asociaciones Populares de Vivienda"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Gestión de Consejo Comunitario"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cooperativas"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Minga"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Otros"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="6dp"
+                                android:alpha=".6"
+                                android:background="@color/purple_500"
+                                android:hint="¿Cuántos?"
+                                android:textColorHint="@color/blueDarkSena"
+                                android:visibility="visible"
+                                app:boxBackgroundMode="outline"
+                                app:endIconMode="clear_text"
+                                app:hintTextColor="@color/blueDarkSena"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="49dp"
+                                    android:inputType="text" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/line12"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout15"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line12">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question11D"
+                        android:textColor="@color/blueDarkSena"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Preescolar"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Básica primaria"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Básica secundaria \n(bachillerato)"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Media Técnica \n(bachillerato técnico)"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Técnico Profesional"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                        </RadioGroup>
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tecnólogo"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Profesional"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Especialización"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Postgrado"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
 
 
-<!--                </LinearLayout>-->
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="6dp"
+                                android:alpha=".6"
+                                android:background="@color/purple_500"
+                                android:hint="Maestria o Doctorado"
+                                android:textColorHint="@color/blueDarkSena"
+                                android:visibility="visible"
+                                app:boxBackgroundMode="outline"
+                                app:endIconMode="clear_text"
+                                app:hintTextColor="@color/blueDarkSena"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:layout_width="140dp"
+                                    android:layout_height="49dp"
+                                    android:inputType="text" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </RadioGroup>
+                    </LinearLayout>
 
 
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/line13"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout16"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Ocupación de espacios:"
+                android:textColor="@color/orangeSena"
+                android:textSize="@dimen/titles"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line13"/>
+            <LinearLayout
+                android:id="@+id/linearLayout17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12. Hace cuanto tiempo (años) reside en la vivienda"
+                    android:textColor="@color/blueDarkSena"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
-<!--            </LinearLayout>-->
-<!--            <com.google.android.material.button.MaterialButton-->
-<!--                android:id="@+id/btnNext"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="30dp"-->
-<!--                android:layout_marginBottom="30dp"-->
-<!--                android:backgroundTint="@color/blueDarkSena"-->
-<!--                android:drawableEnd="@drawable/ic_exit_to_app"-->
-<!--                android:layout_marginLeft="200dp"-->
-<!--                android:text="@string/next"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/linearLayout15" />-->
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha=".6"
+                    android:background="@color/purple_500"
+                    android:textColorHint="@color/blueDarkSena"
+                    app:boxBackgroundMode="outline"
+                    app:endIconMode="clear_text"
+                    app:hintTextColor="@color/blueDarkSena"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="number" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/line14"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout17"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line14">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13. Tipo de tendencia de la vivienda:"
+                        android:textColor="@color/blueDarkSena"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="214dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="propia"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Alquiler"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Familiar"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hipotecada"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cedida"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Condenada"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Usufructo"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anticresis"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Otro"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="6dp"
+                                android:alpha=".6"
+                                android:background="@color/purple_500"
+                                android:hint="¿Cuál?"
+                                android:textColorHint="@color/blueDarkSena"
+                                android:visibility="visible"
+                                app:boxBackgroundMode="outline"
+                                app:endIconMode="clear_text"
+                                app:hintTextColor="@color/blueDarkSena"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="49dp"
+                                    android:inputType="text" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/line15"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout18"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line15">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13. Tipo de tendencia de la vivienda:"
+                        android:textColor="@color/blueDarkSena"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="214dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="propia"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Alquiler"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Familiar"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hipotecada"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cedida"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Condenada"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Usufructo"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anticresis"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Otro"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="6dp"
+                                android:alpha=".6"
+                                android:background="@color/purple_500"
+                                android:hint="¿Cuál?"
+                                android:textColorHint="@color/blueDarkSena"
+                                android:visibility="visible"
+                                app:boxBackgroundMode="outline"
+                                app:endIconMode="clear_text"
+                                app:hintTextColor="@color/blueDarkSena"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="49dp"
+                                    android:inputType="text" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/line16"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout19"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line16">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14. La Vivienda se Encuentra en Espacios de Alto Riesgo"
+                        android:textColor="@color/blueDarkSena"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="si"
+                                android:layout_marginRight="20dp"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="no"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/line17"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout20"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line17">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question15D"
+                        android:textColor="@color/blueDarkSena"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="214dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Inundaciones"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Deslizamientos Desprendimientos \n(tierra/rocas)"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hundimientos"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Inseguridad en orden público"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Humedad Interior"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Otro"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="6dp"
+                                android:alpha=".6"
+                                android:background="@color/purple_500"
+                                android:hint="¿Cuál?"
+                                android:textColorHint="@color/blueDarkSena"
+                                android:visibility="visible"
+                                app:boxBackgroundMode="outline"
+                                app:endIconMode="clear_text"
+                                app:hintTextColor="@color/blueDarkSena"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="49dp"
+                                    android:inputType="text" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/line18"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout21"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line18">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16. La vivienda donde vive es: "
+                        android:textColor="@color/blueDarkSena"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="214dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Adquirida por Herencia"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Construida Desde sus Inicios"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Comprada"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Renovada en los Últimos 10 Años"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/line19"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/orangeSena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout22"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/linearLayout23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line19">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17. Prioritariamente cual mienbro de la fa,milia hace la gestión de Adquirir (A),Mantener (M) y  Desarrollar (D) la  vivienda"
+                        android:textColor="@color/blueDarkSena"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Padre: "/>
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="M"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="D"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Madre: "/>
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="M"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="D"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hijos: "/>
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="M"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="D"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Abuelos: "/>
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="M"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="D"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Otros: "/>
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="M"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="D"
+                                android:textColor="@color/graySenaVariant"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
