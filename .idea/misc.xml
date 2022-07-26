@@ -55,6 +55,12 @@
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/fragment_zones_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/item_menu_zones.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SenaMoviles/AndroidStudioProjects/ContruyendoPacifico/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.525" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.4444444444444444" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.525" />
+        <entry key="app/src/main/res/layout/fragment_menu_modules.xml" value="0.525" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.525" />
+        <entry key="app/src/main/res/layout/fragment_zones_menu.xml" value="0.525" />
       </map>
     </option>
   </component>
